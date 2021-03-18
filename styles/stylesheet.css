@@ -10,3 +10,35 @@
 h2{
     font-size: 1.5em;
 }
+.c {
+    float: left;
+    display: block;
+    width: 35%;
+    height: 200px;
+    padding: 20px;
+    background-color: #2896EC;
+    text-align: left;
+}
+.c2 {
+    float: right;
+    display: block;
+    width: 35%;
+    height: 200px;
+    padding: 20px;
+    background-color: #2896EC;
+    text-align: right;
+}
+#bacon_studio {
+    float: right;
+    object-fit: cover;
+}
+#glass {
+    float: left;
+    object-fit: cover;
+}
+h3{
+    font-size: 2em;
+}
+p{
+    font-size: 1em;
+}
