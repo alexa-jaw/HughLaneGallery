@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+
     <meta name="viewport">
     <title>navigation bar</title>
-    <link rel="stylesheet" href="styles/stylesheet.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta name="Author" content="Pragya Vashishtha">
+    <meta name="description"
+        content="Portfolio Website of Pragya Vashishtha, a postgraduate student of Interactive Digital Media at Trinity College Dublin.">
+    <meta name="keywords" content="IDM, TCD, Graphic Design, masters">
+    <title>Hugh Lane</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+
 </head>
 <body>
+
 
 <h1 class="firstHeader"><a style="text-decoration:none">HUGH LANE GALLERY</a></h1>
 <h1 class="secondHeader"><a style ="text-decoration:none">DÁNLANN AN HUGH LANE</a></h1>
@@ -58,7 +73,82 @@
     </div>
 </div>
 
+    <div id="container">
+        <!-- Main Content -->
+        <div id="content" class="c">
+            <h3>Francis Bacon Studio </h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>Hugh Lane Relocation</p>
+        </div>
+        <img id="bacon_studio" src="photos/studio_pic.png" width="65%" height="200px" alt="Bacon Studio Picture">
 
+
+        <div id="content2" class="c2">
+            <h3>Stained Glass Room </h3>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p>Remarkable and popular Harry Clarke Piece's</p>
+        </div>
+        <img id="glass" src="photos/glass.png" width="65%" height="200px" alt="Bacon Studio Picture">
+
+
+        <div id="footer">
+            <div class="jumbotron">
+
+                <!-- Navigation menu -->
+                <nav class="navbar navbar-expand-sm">
+
+                    <!-- Links -->
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              About
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Hugh Lane</a>
+                              <a class="dropdown-item" href="#">Charlemont House</a>
+                              <a class="dropdown-item" href="#">The Gallery</a>
+                              <div class="dropdown-divider"></div>
+                              <a class="dropdown-item" href="#">Related Documents</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Career</a>
+                        </li>
+                    </ul>
+
+                </nav>
+                <div class="form-group">
+                    <h2> <label for="mailList">Join our mailing list:</label> </h2>
+                    <input type="text" class="form-control" id="mailList">
+                </div>
+                <div>
+                    <h2 class="float-right">Charlemont House, Parnell Square N, Rotunda<br> Dublin, D01 F2X9</h2>
+                    <h2>High Contrast Mode</h2>
+                </div>
+
+
+                <div class="d-flex flex-row justify-content-center">
+                    <div class="p-2">Privacy Policy</div>
+                    <div class="p-2">Terms of use</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 
 </body>
+
 </html>
