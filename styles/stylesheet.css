@@ -1,10 +1,18 @@
+.main-content{
+    z-index: -10;
+}
 
-.firstHeader {
+.footer-text{
+font-size: 1.5em;
+font-weight: lighter;
+
+}
+.titleHeader {
     color: dodgerblue;
-    margin-top: 10px;
+    /* margin-top: 10px;
     margin-left: 20px;
     font-size: 30px;
-    font-family: Osaka, Helvetica, sans-serif;
+    font-family: Osaka, Helvetica, sans-serif; */
 }
 
 .secondHeader {
@@ -125,10 +133,7 @@ h2{
     background-color: #2896EC;
     text-align: right;
 }
-#bacon_studio {
-    float: right;
-    object-fit: cover;
-}
+
 #glass {
     float: left;
     object-fit: cover;
@@ -139,4 +144,14 @@ h3{
 p{
     font-size: 1em;
 }
+
+.fit-image{
+    object-fit: cover;
+    }
+
+
+    .img-right{
+        width: 65%;
+        height: 200px;
+    }
 
