@@ -36,7 +36,7 @@ body {
 }
 /* The navigation menu */
 .navbar {
-    overflow: hidden;
+    overflow: visible;
     background-color: #F8F8FF;
 }
 
@@ -70,9 +70,9 @@ body {
 }
 
 /* Add a pink background color to navigation links on hover */
-.navbar a:hover, .subnav:hover .subnavbtn {
+/* .navbar a:hover, .subnav:hover .subnavbtn {
     background-color: #FEC5E5;
-}
+} */
 
 /* Style the subnav content - positioned absolute */
 .subnav-content {
