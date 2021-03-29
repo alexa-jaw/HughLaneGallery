@@ -7,6 +7,13 @@ font-size: 1.5em;
 font-weight: lighter;
 
 }
+
+.card-body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
 .titleHeader {
     color: dodgerblue;
     /* margin-top: 10px;
@@ -99,7 +106,7 @@ font-weight: lighter;
 /* .subnav:hover .subnav-content {
     display: block;
     background-color: #FEC5E5;
-} */ */
+} */
 
 /* Selects any <a> element when "hovered" */
 a:hover {
