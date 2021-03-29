@@ -31,34 +31,32 @@ font-weight: lighter;
     position: initial;
     font-family: Osaka, Helvetica,sans-serif;
 }
-body {
-    background-color: #F8F8FF;
-}
-/* The navigation menu */
+
+/* The navigation menu
 .navbar {
     overflow: visible;
     background-color: #F8F8FF;
 }
 
 /* Navigation links */
-.navbar a {
+/* .navbar a {
     float: left;
     font-size: 18px;
     font-family: Osaka, sans-serif;
     color: dimgrey;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-}
+    text-decoration: none; */
+/* } */
 
 /* The subnavigation menu */
-.subnav {
+/* .subnav {
     float: left;
     overflow: hidden;
-}
+} */
 
 /* Subnav button Art Visit What's on Learn & Engage Shop */
-.subnav .subnavbtn {
+/* .subnav .subnavbtn {
     font-size: 22px;
     border: none;
     outline: none;
@@ -67,7 +65,7 @@ body {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-}
+} */
 
 /* Add a pink background color to navigation links on hover */
 /* .navbar a:hover, .subnav:hover .subnavbtn {
@@ -75,33 +73,33 @@ body {
 } */
 
 /* Style the subnav content - positioned absolute */
-.subnav-content {
+/* .subnav-content {
     display: none;
     position: absolute;
     left: 0;
     background-color: #FEC5E5;
     width: 100%;
 
-}
+} */
 
 /* Style the subnav links */
-.subnav-content a {
+/* .subnav-content a {
     float: left;
     color: dimgrey;
     text-decoration: none;
-}
+} */
 
 /* Add a grey background color on hover */
-.subnav-content a:hover {
+/* .subnav-content a:hover {
     background-color: #eee;
     color: black;
-}
+} */
 
 /* When you move the mouse over the subnav container, open the subnav content */
-.subnav:hover .subnav-content {
+/* .subnav:hover .subnav-content {
     display: block;
     background-color: #FEC5E5;
-}
+} */ */
 
 /* Selects any <a> element when "hovered" */
 a:hover {
@@ -145,13 +143,48 @@ p{
     font-size: 1em;
 }
 
+
 .fit-image{
     object-fit: cover;
     }
 
+/* .carousel {
+        width: 640px;  
+        height:360px;
+      } */
 
+      /* .carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 100%;
+  width: auto;
+}
+
+.carousel-item {
+  text-align: center;
+}
+/* .carousel {
+    height: 400px;
+  } */ 
+/* 
+  .nav.navbar-nav li a {
+    color: white;
+  }
+ 
+ .nav.navbar-nav a:hover {
+  color: white;
+ } */
     .img-right{
         width: 65%;
         height: 200px;
     }
 
+    #img{
+        opacity: 0.4;
+    }
+
+    /* .bg-black{
+        background-color: black;
+    } */
+
+    
