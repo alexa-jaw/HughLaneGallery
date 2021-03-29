@@ -22,6 +22,8 @@
     <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="I added something in the meta to test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/studio_pic.png" beforeDir="false" afterPath="$PROJECT_DIR$/photos/studio_pic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/test.PNG" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,5 +85,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="I added something in the meta to test" />
+    <option name="LAST_COMMIT_MESSAGE" value="I added something in the meta to test" />
   </component>
 </project>

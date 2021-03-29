@@ -8,6 +8,26 @@ font-weight: lighter;
 
 }
 
+a {
+    color: #2896EC !important;
+}
+
+
+
+/*img {*/
+/*    opacity: 1;*/
+/*}*/
+
+img:hover {
+    /*filter: hue-rotate(180deg);*/
+    /*-webkit-filter: hue-rotate(180deg);*/
+    /*filter: saturate(170%);*/
+    /*-webkit-filter: saturate(170%);*/
+    filter: sepia(80%);
+    -webkit-filter: sepia(80%);
+
+}
+
 .card-body {
     display: flex;
     justify-content: center;
@@ -15,7 +35,7 @@ font-weight: lighter;
     height: 100%;
 }
 .titleHeader {
-    color: dodgerblue;
+    color: #2896EC;
     /* margin-top: 10px;
     margin-left: 20px;
     font-size: 30px;
@@ -23,7 +43,7 @@ font-weight: lighter;
 }
 
 .secondHeader {
-    color: dodgerblue;
+    color: #2896EC;
     margin-top: -60px;
     margin-left: 900px;
     font-size: 30px;
@@ -109,9 +129,7 @@ font-weight: lighter;
 } */
 
 /* Selects any <a> element when "hovered" */
-a:hover {
-    color: #FEC5E5;
-}
+
 
 .form-control{
     width: 30%;
@@ -195,3 +213,16 @@ p{
     } */
 
     
+.visit {
+    font-size: 1.4em !important;
+}
+.visit_title {
+    font-size: 1.7em !important;
+    text-align: center;
+}
+
+/*.card-text{*/
+/*    text-overflow: ellipsis;*/
+/*    white-space: nowrap;*/
+/*    overflow: hidden;*/
+/*}*/
