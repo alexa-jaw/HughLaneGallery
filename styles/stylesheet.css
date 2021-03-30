@@ -11,7 +11,9 @@ font-weight: lighter;
 a {
     color: #2896EC !important;
 }
-
+a[href$="https://www.hughlane.ie/phocadownload/pdf/gallery_map_large_v4.pdf"]:after {
+    content: " (PDF)";
+}
 
 
 /*img {*/
@@ -34,6 +36,7 @@ img:hover {
     flex-direction: column;
     height: 100%;
 }
+
 .titleHeader {
     color: #2896EC;
     /* margin-top: 10px;
@@ -217,8 +220,9 @@ p{
     font-size: 1.4em !important;
 }
 .visit_title {
-    font-size: 1.7em !important;
+    font-size: 2em !important;
     text-align: center;
+    color:black !important;
 }
 
 /*.card-text{*/
@@ -226,3 +230,45 @@ p{
 /*    white-space: nowrap;*/
 /*    overflow: hidden;*/
 /*}*/
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.4;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: white;
+    color: white;
+}
+
+.fa-instagram {
+    background: white;
+    color: white;
+}
+
+.fa-youtube {
+    background: white;
+    color: white;
+}
+
+.fa-linkedin {
+    background: white;
+    color: white;
+}
