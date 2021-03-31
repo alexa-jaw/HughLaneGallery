@@ -38,6 +38,7 @@ img:hover {
     height: 100%;
 }
 
+
 .titleHeader {
     color: #2896EC;
     /* margin-top: 10px;
@@ -221,7 +222,7 @@ p{
     font-size: 1.2em !important;
 }
 .visit_title {
-    font-size: 1.5em !important;
+    font-size: 1.7em !important;
     text-align: center;
     color:black !important;
 }
