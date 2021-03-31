@@ -22,7 +22,7 @@
     <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/collections">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/collections.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617201454898</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Aleksa/update/collections">
+      <created>1617207683353</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1617207683353</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,14 +197,14 @@
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="374" y="72" key="SettingsEditor/0.25.1440.824@0.25.1440.824" timestamp="1617198900671" />
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2" timestamp="1617201459102">
+    <state x="602" y="173" key="Vcs.Push.Dialog.v2" timestamp="1617207691440">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.824@0.25.1440.824" timestamp="1617201459102" />
+    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.824@0.25.1440.824" timestamp="1617207691440" />
     <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1617198479939" />
-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617207360954">
+    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617207673127">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.824@0.25.1440.824" timestamp="1617207360954" />
+    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.824@0.25.1440.824" timestamp="1617207673127" />
   </component>
 </project>
