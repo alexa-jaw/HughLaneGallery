@@ -11,6 +11,7 @@ font-weight: lighter;
 a {
     color: #2896EC !important;
 }
+
 a[href$="https://www.hughlane.ie/phocadownload/pdf/gallery_map_large_v4.pdf"]:after {
     content: " (PDF)";
 }

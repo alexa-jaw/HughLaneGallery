@@ -18,7 +18,7 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../styles/stylesheet.css" />
 
-    <script src="app.js"></script>
+    <script src="../app.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"></script>
@@ -34,82 +34,82 @@
 </head>
 
 <body>
-    <div class="page-header">
-        <h1 class="titleHeader float-left ml-4 mt-2 text-info"><a href = "../index.html">HUGH LANE GALLERY</a></h1>
-        <h1 class="titleHeader float-right mr-4 mt-2 text-info"><a href = "../index.html">DÁNLANN AN HUGH LANE</a></h1>
+<div class="page-header">
+    <h1 class="titleHeader float-left ml-4 mt-2 "><a href="index.html">HUGH LANE GALLERY</a></h1>
+    <h1 class="titleHeader float-right mr-4 mt-2 "><a href="index.html">DÁNLANN AN HUGH LANE</a></h1>
 
-        <h2 class="fee"><a>Admission free </a></h2>
+    <h2 class="fee"><a>Admission free </a></h2>
 
-        <!-- Navigation menu -->
-        <nav class="navbar navbar-expand-sm navbar-fixed-top">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <!-- Navigation menu -->
+    <nav id="navbar_top" class="navbar navbar-expand-sm bg-white">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Links -->
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item dropdown px-4">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Art
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Collections </a>
-                            <a class="dropdown-item" href="#">Exhibitions</a>
-                            <a class="dropdown-item" href="#">Artists A-Z </a>
-                            <a class="dropdown-item" href="#">Publications A-Z</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown  px-4">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Visit
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="visit.html#opening">Opening Hours</a>
-                            <a class="dropdown-item" href="visit.html#access">Access & Facilities</a>
-                            <a class="dropdown-item" href="visit.html#family">Family Tours</a>
-                            <a class="dropdown-item" href="visit.html#guided">Guided Tours</a>
-                            <a class="dropdown-item" href="visit.html#cafe">Café and Bookshop</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown  px-4">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            What's on
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Collections </a>
-                            <a class="dropdown-item" href="#">Exhibitions</a>
-                            <a class="dropdown-item" href="#">Artists A-Z </a>
-                            <a class="dropdown-item" href="#">Publications A-Z</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown  px-4">
-                        <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Learn & Engage
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Collections </a>
-                            <a class="dropdown-item" href="#">Exhibitions</a>
-                            <a class="dropdown-item" href="#">Artists A-Z </a>
-                            <a class="dropdown-item" href="#">Publications A-Z</a>
-                        </div>
-                    </li>
-                    <li class="nav-item  px-4">
-                        <a class="nav-link  text-dark" href="#">Shop</a>
-                    </li>
-                </ul>
-                <form class="form-inline">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </nav>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Art
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Collections </a>
+                        <a class="dropdown-item" href="#">Exhibitions</a>
+                        <a class="dropdown-item" href="#">Artists A-Z </a>
+                        <a class="dropdown-item" href="#">Publications A-Z</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown  px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="../components/visit.html" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Visit
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../components/visit.html#opening">Opening Hours</a>
+                        <a class="dropdown-item" href="../components/visit.html#access">Access & Facilities</a>
+                        <a class="dropdown-item" href="../components/visit.html#family">Family Tours</a>
+                        <a class="dropdown-item" href="../components/visit.html#guided">Guided Tours</a>
+                        <a class="dropdown-item" href="../components/visit.html#cafe">Café and Bookshop</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown  px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        What's on
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Collections </a>
+                        <a class="dropdown-item" href="#">Exhibitions</a>
+                        <a class="dropdown-item" href="#">Concerts </a>
+                        <a class="dropdown-item" href="#">Public Events</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown  px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Learn & Engage
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../components/learn-engage.html">Courses </a>
+                        <a class="dropdown-item" href="../components/learn-engage.html">Programmes</a>
+                        <a class="dropdown-item" href="../components/learn-engage.html">Talks </a>
+                        <a class="dropdown-item" href="../components/learn-engage.html">Kids Club</a>
+                    </div>
+                </li>
+                <li class="nav-item  px-4">
+                    <a class="nav-link  text-dark" href="../components/bookshop.html">Shop</a>
+                </li>
+            </ul>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
 
-    </div>
+</div>
 
     <div class="mt-2">
 
@@ -117,7 +117,8 @@
             <div class="row my-5">
                 <div class="col-md-5">
                     <div class="card-body-top visit">
-                        <h5 class="card-title visit_title font-weight-bold"><a id="opening">Opening Hours</a></h5>
+                        <a id="opening"></a>
+                        <br><br><h5 class="card-title visit_title font-weight-bold">Opening Hours</h5>
                         <br><img src="../photos/openinghours.JPG" width="480px" height= "auto" class="card-img rounded-0" alt="A painting held by four hands-teh painting that is recovered after stolen" >
                     </div>
                 </div>
@@ -146,7 +147,7 @@
                 <div class="col-md-7">
                     <div class="card-body visit">
                         <p class="card-text px-2">
-                            <strong>Information Desk</strong> <br>
+                            <br><br><strong>Information Desk</strong> <br>
                             located on the right on entrance to the Gallery.<br> <br>
                             <strong>Toilets</strong> <br>
                             Accessible and standard toilets are located on the ground floor entrance hallway and on basement level.<br>
@@ -157,15 +158,14 @@
                             A large lift beside the reception area, which provides access to all floors <br>
                             A small lift in the new wing corridor that provides access from the ground floor to the first floor exhibition galleries<br><br>
                             <strong>Cloakroom</strong> <br>
-                            There is a cloakroom in the basement that is accessible via steps or the lift. <br><br>
-                            <strong>Café and Bookshop</strong> <br>
-                            The café and bookshop are open during gallery hours. For further information, please see http://localhost:63342/index.html/visit.html
+                            There is a cloakroom in the basement that is accessible via steps or the lift.
                         </p>
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="card-body-top visit">
-                        <h5 class="card-title visit_title font-weight-bold"><a id="access">Access and Facilities</a></h5>
+                        <a id="access"></a>
+                        <br><br><h5 class="card-title visit_title font-weight-bold">Access and Facilities</h5>
                        <br><img src="../photos/access.JPG" width="480px" height= "auto" class="card-img rounded-0" alt="a woman sitting in Hugh Lane Gallery" >
                     </div>
                 </div>
@@ -176,7 +176,8 @@
             <div class="row my-5">
                 <div class="col-md-5">
                     <div class="card-body-top visit">
-                        <h5 class="card-title visit_title font-weight-bold"><a id="family">Family Tours</a></h5>
+                        <a id="family"></a>
+                        <br><br><h5 class="card-title visit_title font-weight-bold">Family Tours</h5>
                         <br><img src="../photos/kidsclub.JPG" width="480px" height= "auto" class="card-img rounded-0" alt="Workshop in kids club at Hugh Lane" >
                     </div>
                 </div>
@@ -222,7 +223,8 @@
                 </div>
                 <div class="col-md-5">
                     <div class="card-body-top visit">
-                        <h5 class="card-title visit_title font-weight-bold"><a id="guided">Guided Tours</a></h5>
+                        <a id="guided"></a>
+                        <br><br><h5 class="card-title visit_title font-weight-bold">Guided Tours</h5>
                         <br><img src="../photos/group.JPG" width="480px" height= "auto" class="card-img rounded-0" alt="A group of arts students visiting Hugh Lane Gallery" >
                     </div>
                 </div>
@@ -233,7 +235,8 @@
             <div class="row my-5">
                 <div class="col-md-5">
                     <div class="card-body-top visit">
-                        <h5 class="card-title visit_title font-weight-bold"><a id="cafe">Café & Bookshop</a></h5>
+                        <a id="cafe"></a>
+                        <br><br><h5 class="card-title visit_title font-weight-bold">Café & Bookshop</h5>
                         <br><img src="../photos/cafe.JPG" width="480px" height= "auto" class="card-img rounded-0" alt="Hugh Lane Gallery cafe" >
                     </div>
                 </div>
