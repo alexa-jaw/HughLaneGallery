@@ -19,11 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="learn &amp; Engage courses page">
+    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="learn &amp; Engage page">
+      <change afterPath="$PROJECT_DIR$/photos/2021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/outreach.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <workItem from="1617192979280" duration="3832000" />
       <workItem from="1617211951408" duration="1136000" />
       <workItem from="1617214357066" duration="10719000" />
-      <workItem from="1617266657288" duration="2460000" />
+      <workItem from="1617266657288" duration="2811000" />
     </task>
     <task id="LOCAL-00001" summary="updated homepage for the hover image effect and complete the draft for visit desktop">
       <created>1617051046894</created>
@@ -236,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617268957317</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="learn &amp; Engage page">
+      <created>1617269150314</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1617269150314</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +272,8 @@
     <MESSAGE value="Aleksa/update/art" />
     <MESSAGE value="learn &amp; Engage Overview page" />
     <MESSAGE value="learn &amp; Engage courses page" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn &amp; Engage courses page" />
+    <MESSAGE value="learn &amp; Engage page" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn &amp; Engage page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="439" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617245691939">
