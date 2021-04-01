@@ -19,34 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="learn &amp; Engage page">
-      <change afterPath="$PROJECT_DIR$/photos/audiodis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/bacon_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/children.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/cubist_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/kids_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/kids_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/kids_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/st.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/teen_1.png" afterDir="false" />
+    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Kids Club.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Kids Club.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Talks.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Talks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/art/artists.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/artists.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/art/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/publications.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -60,10 +41,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/photos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,11 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Alison\WebstormProjects\HughLane\components\Learn &amp; Engage" />
       <recent name="C:\Users\garet\git\HughLane" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Alison\WebstormProjects\HughLane\photos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -98,7 +74,6 @@
       <workItem from="1617192979280" duration="3832000" />
       <workItem from="1617211951408" duration="1136000" />
       <workItem from="1617214357066" duration="10719000" />
-      <workItem from="1617266657288" duration="9628000" />
     </task>
     <task id="LOCAL-00001" summary="updated homepage for the hover image effect and complete the draft for visit desktop">
       <created>1617051046894</created>
@@ -233,35 +208,7 @@
       <option name="project" value="LOCAL" />
       <updated>1617229383559</updated>
     </task>
-    <task id="LOCAL-00020" summary="learn &amp; Engage Overview page">
-      <created>1617267925000</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1617267925000</updated>
-    </task>
-    <task id="LOCAL-00021" summary="learn &amp; Engage courses page">
-      <created>1617268957317</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1617268957317</updated>
-    </task>
-    <task id="LOCAL-00022" summary="learn &amp; Engage page">
-      <created>1617269150314</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1617269150314</updated>
-    </task>
-    <task id="LOCAL-00023" summary="learn &amp; Engage page">
-      <created>1617269516963</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1617269516963</updated>
-    </task>
-    <option name="localTasksCounter" value="24" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,20 +235,9 @@
     <MESSAGE value="EDWARD a final change on visit.html" />
     <MESSAGE value="Aleksa/update/collections" />
     <MESSAGE value="Aleksa/update/art" />
-    <MESSAGE value="learn &amp; Engage Overview page" />
-    <MESSAGE value="learn &amp; Engage courses page" />
-    <MESSAGE value="learn &amp; Engage page" />
-    <option name="LAST_COMMIT_MESSAGE" value="learn &amp; Engage page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aleksa/update/art" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="439" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617245691939">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="439" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1368.872@0.0.1368.872" timestamp="1617245691939" />
-    <state x="416" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617279251340">
-      <screen x="0" y="0" width="1368" height="872" />
-    </state>
-    <state x="416" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1617279251340" />
     <state x="374" y="72" key="SettingsEditor" timestamp="1617198900671">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
