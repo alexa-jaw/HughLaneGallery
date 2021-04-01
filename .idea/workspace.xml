@@ -20,10 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="learn &amp; Engage page">
-      <change afterPath="$PROJECT_DIR$/photos/2021.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/outreach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/audiodis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/bacon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/children.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/cubist_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/kids_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/kids_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/kids_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/st.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/teen_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Kids Club.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Kids Club.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Talks.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Talks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +98,7 @@
       <workItem from="1617192979280" duration="3832000" />
       <workItem from="1617211951408" duration="1136000" />
       <workItem from="1617214357066" duration="10719000" />
-      <workItem from="1617266657288" duration="2811000" />
+      <workItem from="1617266657288" duration="9628000" />
     </task>
     <task id="LOCAL-00001" summary="updated homepage for the hover image effect and complete the draft for visit desktop">
       <created>1617051046894</created>
@@ -243,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617269150314</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="learn &amp; Engage page">
+      <created>1617269516963</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1617269516963</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,10 +298,10 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state x="439" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1368.872@0.0.1368.872" timestamp="1617245691939" />
-    <state x="416" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617267847568">
+    <state x="416" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617279251340">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="416" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1617267847568" />
+    <state x="416" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1617279251340" />
     <state x="374" y="72" key="SettingsEditor" timestamp="1617198900671">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
