@@ -19,15 +19,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art">
+    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="modified the dropdown menu of learn &amp; Engage in homepage nav">
+      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Kids Club.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Talks.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/courses.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/kids_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/programmes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/talks.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_03_2021__16_24__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_03_2021__16_24__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_03_2021__14_25__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_03_2021__14_25__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/artists.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/artists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/learn-engage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/visit.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/visit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,9 +61,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/photos" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,7 +76,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alison\WebstormProjects\HughLane\components\Learn &amp; Engage" />
       <recent name="C:\Users\garet\git\HughLane" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alison\WebstormProjects\HughLane\photos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,6 +99,7 @@
       <workItem from="1617192979280" duration="3832000" />
       <workItem from="1617211951408" duration="1136000" />
       <workItem from="1617214357066" duration="10719000" />
+      <workItem from="1617266657288" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="updated homepage for the hover image effect and complete the draft for visit desktop">
       <created>1617051046894</created>
@@ -238,6 +264,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Aleksa/update/art" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="439" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617245691939">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="439" y="237" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1368.872@0.0.1368.872" timestamp="1617245691939" />
+    <state x="416" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617267847568">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="416" y="186" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1368.872@0.0.1368.872" timestamp="1617267847568" />
     <state x="374" y="72" key="SettingsEditor" timestamp="1617198900671">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
