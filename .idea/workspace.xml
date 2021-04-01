@@ -19,23 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="modified the dropdown menu of learn &amp; Engage in homepage nav">
-      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Kids Club.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/Talks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/courses.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/kids_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/programmes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/photos/talks.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_03_2021__16_24__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_03_2021__16_24__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_03_2021__14_25__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_03_2021__14_25__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="learn &amp; Engage Overview page">
+      <change afterPath="$PROJECT_DIR$/photos/Adultart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/arthis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/portfolio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photos/teacher.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/learn-engage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/visit.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/visit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +89,7 @@
       <workItem from="1617192979280" duration="3832000" />
       <workItem from="1617211951408" duration="1136000" />
       <workItem from="1617214357066" duration="10719000" />
-      <workItem from="1617266657288" duration="1186000" />
+      <workItem from="1617266657288" duration="2263000" />
     </task>
     <task id="LOCAL-00001" summary="updated homepage for the hover image effect and complete the draft for visit desktop">
       <created>1617051046894</created>
@@ -234,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617229383559</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="learn &amp; Engage Overview page">
+      <created>1617267925000</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1617267925000</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +258,8 @@
     <MESSAGE value="EDWARD a final change on visit.html" />
     <MESSAGE value="Aleksa/update/collections" />
     <MESSAGE value="Aleksa/update/art" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aleksa/update/art" />
+    <MESSAGE value="learn &amp; Engage Overview page" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn &amp; Engage Overview page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="439" y="237" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1617245691939">
