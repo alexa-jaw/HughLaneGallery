@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art" />
+    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art/sub/subpages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/art/cecil.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/cecil.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617314510106</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Aleksa/update/art/sub/subpages">
+      <created>1617316114379</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617316114379</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,25 +276,26 @@
     <MESSAGE value="EDWARD a final change on visit.html" />
     <MESSAGE value="Aleksa/update/collections" />
     <MESSAGE value="Aleksa/update/art" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aleksa/update/art" />
+    <MESSAGE value="Aleksa/update/art/sub/subpages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aleksa/update/art/sub/subpages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="374" y="72" key="SettingsEditor" timestamp="1617198900671">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="374" y="72" key="SettingsEditor/0.25.1440.824@0.25.1440.824" timestamp="1617198900671" />
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2" timestamp="1617314515892">
+    <state x="602" y="173" key="Vcs.Push.Dialog.v2" timestamp="1617316118413">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.823@0.25.1440.823" timestamp="1617306820687" />
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.824@0.25.1440.824" timestamp="1617314515892" />
+    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.824@0.25.1440.824" timestamp="1617316118413" />
     <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1617281356367" />
     <state x="602" y="174" key="Vcs.Push.Dialog.v2/0.25.1440.826@0.25.1440.826" timestamp="1617225696989" />
-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617314495110">
+    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617316086527">
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.823@0.25.1440.823" timestamp="1617306788787" />
-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.824@0.25.1440.824" timestamp="1617314495110" />
+    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.824@0.25.1440.824" timestamp="1617316086527" />
     <state x="625" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.825@0.25.1440.825" timestamp="1617281344909" />
     <state x="625" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.826@0.25.1440.826" timestamp="1617225652786" />
   </component>
