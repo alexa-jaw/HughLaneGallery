@@ -19,11 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art/sub/subpages">
+    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art">
+      <change afterPath="$PROJECT_DIR$/components/prints.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_04_2021__13_42__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_04_2021__13_42__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_04_2021__10_48__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_04_2021__10_48__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_04_2021__12_04__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_04_2021__12_04__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_04_2021__12_26__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_02_04_2021__12_26__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_03_2021__16_24__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_30_03_2021__16_24__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_03_2021__14_25__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_31_03_2021__14_25__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/cecil.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/cecil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/collections.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +48,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +59,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\garet\git\HughLane\components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\garet\git\HughLane" />
     </key>
@@ -75,6 +82,7 @@
       <workItem from="1617192979280" duration="3832000" />
       <workItem from="1617211951408" duration="1136000" />
       <workItem from="1617214357066" duration="10719000" />
+      <workItem from="1617370156735" duration="2495000" />
     </task>
     <task id="LOCAL-00001" summary="updated homepage for the hover image effect and complete the draft for visit desktop">
       <created>1617051046894</created>
