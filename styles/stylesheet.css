@@ -288,3 +288,48 @@ p{
     font-size: 2em;
 }
 /* About page css end */
+
+
+  /* Media queries */
+
+   /* xs Extra small devices (portrait phones, less than 576px) */
+  @media (max-width: 575.98px) { 
+    #hugh-lane-headings h1 {
+        font-size: 1.8em;
+        float:none !important;
+      }
+      #gaelic-heading{
+        font-size: 1em !important;
+    }
+    #ad-free-heading h2{
+        font-size: 1em;  
+        float: none !important;
+    }
+   }
+
+   /* css for different text sizes */
+
+   .small-text{
+       font-size: 0.5em;
+   }
+  
+   /* sm Small devices (landscape phones, less than 768px) */
+  @media (max-width: 767.98px) { 
+    
+   }
+  
+   /* md Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) { 
+    #hugh-lane-headings h1 {
+        font-size: 1.7em;
+      }
+    #ad-free-heading h2{
+        font-size: 1em;  
+    }
+   }
+  
+   /* lg Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) {  }
+  
+   /* xl Extra large devices (large desktops) */
+   /* No media query since the extra-large breakpoint has no upper bound on its width */
