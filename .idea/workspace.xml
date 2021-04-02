@@ -21,7 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art/sub/subpages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/sirHugh.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/sirHugh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/art/cecil.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/cecil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/art/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/collections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/art/efforts.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/efforts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/art/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photos/red2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -403,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617387505753</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="Aleksa/update/art/sub/subpages">
+      <created>1617388283472</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1617388283472</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,17 +450,17 @@
       <screen x="0" y="25" width="1440" height="824" />
     </state>
     <state x="374" y="72" key="SettingsEditor/0.25.1440.824@0.25.1440.824" timestamp="1617198900671" />
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2" timestamp="1617387512231">
+    <state x="602" y="173" key="Vcs.Push.Dialog.v2" timestamp="1617388290746">
       <screen x="0" y="25" width="1440" height="823" />
     </state>
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.823@0.25.1440.823" timestamp="1617387512231" />
+    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.823@0.25.1440.823" timestamp="1617388290746" />
     <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.824@0.25.1440.824" timestamp="1617316118413" />
     <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1617281356367" />
     <state x="602" y="174" key="Vcs.Push.Dialog.v2/0.25.1440.826@0.25.1440.826" timestamp="1617225696989" />
-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617387493666">
+    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617392747017">
       <screen x="0" y="25" width="1440" height="823" />
     </state>
-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.823@0.25.1440.823" timestamp="1617387493666" />
+    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.823@0.25.1440.823" timestamp="1617392747017" />
     <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.824@0.25.1440.824" timestamp="1617316086527" />
     <state x="625" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.825@0.25.1440.825" timestamp="1617281344909" />
     <state x="625" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.826@0.25.1440.826" timestamp="1617225652786" />
