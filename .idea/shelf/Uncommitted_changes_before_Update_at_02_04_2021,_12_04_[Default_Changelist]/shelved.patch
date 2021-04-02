@@ -1,0 +1,1634 @@
+Index: components/bookshop.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n\n    <meta name=\"Bookshop\">\n    <title>Hugh Lane Gallery Bookshop</title>\n\n    <meta name=\"Author\"\n          content=\"Aleksandra Jaworska Gareth Walsh Edward Xilong Zhang Yue Yu Pragya Vashishtha\">\n    <meta name=\"description\"\n          content=\"Hugh Lane Gallery houses the foremost public collection of contemporary art in Ireland; the gallery also has a dynamic temporary exhibitions programme often encompassing the permanent collection. \" />\n    <meta name=\"keywords\"\n          content=\"Bookshop,Art Gallery Dublin, Irish Exhibitions, Modern Art Galleries, Contemporary Exhibitions, Things to do in Dublin, tourist attraction Ireland, Places To Visit Ireland, Places to Visit Dublin\" />\n\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"\n          integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"../styles/stylesheet.css\" />\n\n    <script src=\"app.js\"></script>\n    <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\"\n            integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\"\n            crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js\"\n            integrity=\"sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx\"\n            crossorigin=\"anonymous\"></script>\n\n</head>\n\n<body>\n<div class=\"page-header\">\n    <h1 class=\"titleHeader float-left ml-4 mt-2 \"><a href=\"../index.html\">HUGH LANE GALLERY</a></h1>\n    <h1 class=\"titleHeader float-right mr-4 mt-2 \"><a href=\"../index.html\">DÁNLANN AN HUGH LANE</a></h1>\n\n    <h2 class=\"fee\"><a>Bookshop</a></h2>\n\n    <!-- Navigation menu -->\n    <nav class=\"navbar navbar-expand-sm navbar-fixed-top\">\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n                aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <!-- Links -->\n            <ul class=\"navbar-nav mr-auto\">\n                <li class=\"nav-item  px-4\">\n                    <a class=\"nav-link  text-dark\" href=\"#\">Prints</a>\n                </li>\n                <li class=\"nav-item  px-4\">\n                    <a class=\"nav-link  text-dark\" href=\"#\">Editions</a>\n                </li>\n                <li class=\"nav-item  px-4\">\n                    <a class=\"nav-link  text-dark\" href=\"#\">Books</a>\n                </li>\n                <li class=\"nav-item  px-4\">\n                    <a class=\"nav-link  text-dark\" href=\"#\">Fashion</a>\n                </li>\n                <li class=\"nav-item  px-4\">\n                    <a class=\"nav-link  text-dark\" href=\"#\">Gifts</a>\n                </li>\n                <li class=\"nav-item  px-4\">\n                    <a class=\"nav-link  text-dark\" href=\"#\">Kids</a>\n                </li>\n            </ul>\n            <form class=\"form-inline\">\n                <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n                <button class=\"btn btn-outline-primary my-2 my-sm-0\" type=\"submit\">Search</button>\n            </form>\n        </div>\n    </nav>\n\n</div>\n\n<div class=\"mt-2\">\n    <div id=\"main-content\">\n        <!-- Main Content -->\n\n        <!-- Carousal 1  -->\n        <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\n\n\n            <!-- //TODO: 1. Add background to text-caption;\n            // 2. Add hover opacity change to image -->\n            <div class=\"carousel-inner\">\n                <div class=\"carousel-item active\">\n                    <img class=\"d-block w-100 h-25 fit-image img-fluid\" src=\"../photos/small_image_bookshop_long.png\" alt=\"First slide\">\n                    <div class=\"carousel-caption d-none d-md-block bg-dark\">\n                        <h5 >Hugh Lane Gallery Bookshop </h5>\n                        <p >Welcome to the Gallery Shop</p>\n                    </div>\n                </div>\n\n\n            </div>\n\n        </div>\n\n    </div>\n\n    <div class=\"card border-0\" style=\"max-width:100%\">\n        <div class=\"row \">\n            <div class=\"col-md-7\">\n                <img src=\"../photos/prints.png\" class=\"card-img rounded-0\" alt=\"Picture of sample prints\" >\n            </div>\n            <div class=\"col-md-5\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Prints</h5>\n                    <p class=\"card-text\">High quality prints highlighting featured artworks from our collection and exhibitions\n                    </p>\n                    <p class=\"card-text\"><small class=\"text-muted\">Includes prints from Gallery Collections</small></p>\n                </div>\n            </div>\n        </div>\n    </div>\n\n\n    <div class=\"card border-0\" style=\"max-width:100%\">\n        <div class=\"row\">\n            <div class=\"col-md-5 \">\n                <div class=\"card-body \">\n                    <h5 class=\"card-title \">Editions</h5>\n                    <p class=\"card-text\">Limited edition art pieces created by local Irish artists\n                    </p>\n                    <p class=\"card-text\"><small class=\"text-muted\"></small></p>\n                </div>\n            </div>\n            <div class=\"col-md-7\">\n                <img src=\"../photos/editions.png\" class=\"card-img rounded-0\" alt=\"Image of sample editions\">\n            </div>\n        </div>\n    </div>\n\n    <div class=\"card border-0\" style=\"max-width: 100% \">\n        <div class=\"row\">\n            <div class=\"col-md-7 \">\n                <img src=\"../photos/books.png\" class=\"card-img rounded-0\" alt=\"Sample of books sold in the gallery\">\n            </div>\n            <div class=\"col-md-5\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Books</h5>\n                    <p class=\"card-text\">Our bookshop carries a wide selection of books featuring publications past,\n                        present and future</p>\n                    <p class=\"card-text\"><small class=\"text-muted\"></small></p>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"card border-0\" style=\"max-width:100%\">\n        <div class=\"row\">\n            <div class=\"col-md-5 \">\n                <div class=\"card-body \">\n                    <h5 class=\"card-title \">Fashion</h5>\n                    <p class=\"card-text\">Explore exclusive designs for totes, masks and socks inspired by featured artworks\n                    </p>\n                    <p class=\"card-text\"><small class=\"text-muted\"></small></p>\n                </div>\n            </div>\n            <div class=\"col-md-7\">\n                <img src=\"../photos/fashion.png\" class=\"card-img rounded-0\" alt=\"Sample of fashion sold in the gallery\">\n            </div>\n        </div>\n    </div>\n\n\n    <div class=\"card border-0\" style=\"max-width: 100% \">\n        <div class=\"row\">\n            <div class=\"col-md-7 \">\n                <img src=\"../photos/gifts.png\" class=\"card-img rounded-0\" alt=\"Sample of gifts sold in the shop\">\n            </div>\n            <div class=\"col-md-5\">\n                <div class=\"card-body\">\n                    <h5 class=\"card-title\">Gifts</h5>\n                    <p class=\"card-text\">Explore a wide selection of gift ideas perfect for any occasion</p>\n                    <p class=\"card-text\"><small class=\"text-muted\"></small></p>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"card border-0\" style=\"max-width:100%\">\n        <div class=\"row\">\n            <div class=\"col-md-5 \">\n                <div class=\"card-body \">\n                    <h5 class=\"card-title \">Kids</h5>\n                    <p class=\"card-text\">Discover our unique range of creative gifts, perfect for any occasion\n                    </p>\n                    <p class=\"card-text\"><small class=\"text-muted\"></small></p>\n                </div>\n            </div>\n            <div class=\"col-md-7\">\n                <img src=\"../photos/kids.png\" class=\"card-img rounded-0\" alt=\"Sample of Kids toys sold in the gallery\">\n            </div>\n        </div>\n    </div>\n</div>\n<div id=\"footer\" class=\"bg-info\">\n\n    <!-- Navigation menu -->\n    <nav class=\"navbar navbar-expand-sm ml-4 mr-5 bg-info\">\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n                aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <!-- Links -->\n            <ul class=\"navbar-nav mr-auto\">\n                <li class=\"nav-item dropdown\">\n                    <a class=\"nav-link dropdown-toggle text-white\" href=\"#\" id=\"navbarDropdown\" role=\"button\"\n                       data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                        About\n                    </a>\n                    <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                        <a class=\"dropdown-item\" href=\"#\">Hugh Lane</a>\n                        <a class=\"dropdown-item\" href=\"#\">Charlemont House</a>\n                        <a class=\"dropdown-item\" href=\"#\">The Gallery</a>\n                        <div class=\"dropdown-divider\"></div>\n                        <a class=\"dropdown-item\" href=\"#\">Related Documents</a>\n                    </div>\n                </li>\n                <li class=\"nav-item px-4\" >\n                    <a class=\"nav-link text-white\" href=\"#\">Support</a>\n                </li>\n                <li class=\"nav-item \">\n                    <a class=\"nav-link text-white\" href=\"#\">Contact</a>\n                </li>\n                <li class=\"nav-item px-4\">\n                    <a class=\"nav-link text-white\" href=\"#\">Career</a>\n                </li>\n            </ul>\n            <button type=\"button\" class=\"btn btn-primary float-right\" onclick=\"topFunction()\">Top</button>\n        </div>\n    </nav>\n    <!-- <div class=\"jumbotron\"> -->\n    <div class=\"ml-5 mr-5\">\n        <div class=\"clearfix\">\n            <div class=\"form-group float-left\">\n                <h2 class=\"footer-text text-white\"> <label for=\"mailList\">Join our mailing list:</label> </h2>\n                <div class=\"input-group-append\">\n                    <input type=\"text\" class=\"form-control w-100\" id=\"mailList\">\n                    <button type=\"button\" class=\"btn btn-primary ml-2\">Join</button>\n                </div>\n                <h2 class= \"mt-4\">High Contrast Mode</h2>\n\n\n            </div>\n            <div class=\"float-right\">\n                <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9\n                    <br> <small>Closed today </small>\n                </h2>\n            </div>\n        </div>\n\n        <div class=\"d-flex flex-row justify-content-center float-none\">\n            <a class=\"p-4 text-dark\" href=\"#\">Privacy Policy</a>\n            <a class=\"p-4 text-dark\" href=\"#\">Terms of use</a>\n        </div>\n    </div>\n    <!-- </div> -->\n</div>\n\n\n</body>\n\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/bookshop.html b/components/bookshop.html
+--- a/components/bookshop.html	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
++++ b/components/bookshop.html	(date 1617361322964)
+@@ -30,37 +30,82 @@
+ 
+ <body>
+ <div class="page-header">
+-    <h1 class="titleHeader float-left ml-4 mt-2 "><a href="../index.html">HUGH LANE GALLERY</a></h1>
+-    <h1 class="titleHeader float-right mr-4 mt-2 "><a href="../index.html">DÁNLANN AN HUGH LANE</a></h1>
++    <h1 class="titleHeader float-left ml-4 mt-2 "><a href="index.html">HUGH LANE GALLERY
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp;
++        DÁNLANN AN HUGH LANE</a></h1>
++    <p>&nbsp</p>
++    <p>&nbsp</p>
+ 
+-    <h2 class="fee"><a>Bookshop</a></h2>
+ 
+     <!-- Navigation menu -->
+-    <nav class="navbar navbar-expand-sm navbar-fixed-top">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
++    <nav id="nav-top" class="navbar navbar-expand-md bg-white navbar-dark">
++
++        <!-- Toggler/collapsibe Button -->
++        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
++            <span class="navbar-toggler-icon bg-primary"></span>
+         </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
++
++        <!-- Navbar links -->
++        <div class="collapse navbar-collapse" id="collapsibleNavbar">
++
+             <ul class="navbar-nav mr-auto">
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="#">Prints</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="#">Editions</a>
++                <li class="nav-item dropdown px-4">
++                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
++                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                        Art
++                    </a>
++                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
++                        <a class="dropdown-item" href="#">Collections </a>
++                        <a class="dropdown-item" href="#">Exhibitions</a>
++                        <a class="dropdown-item" href="#">Artists A-Z </a>
++                        <a class="dropdown-item" href="#">Publications A-Z</a>
++                    </div>
+                 </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="#">Books</a>
++                <li class="nav-item dropdown  px-4">
++                    <a class="nav-link dropdown-toggle text-dark" href="../components/visit.html" id="navbarDropdown" role="button"
++                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                        Visit
++                    </a>
++                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
++                        <a class="dropdown-item" href="../components/visit.html#opening">Opening Hours</a>
++                        <a class="dropdown-item" href="../components/visit.html#access">Access & Facilities</a>
++                        <a class="dropdown-item" href="../components/visit.html#family">Family Tours</a>
++                        <a class="dropdown-item" href="../components/visit.html#guided">Guided Tours</a>
++                        <a class="dropdown-item" href="../components/visit.html#cafe">Café and Bookshop</a>
++                    </div>
+                 </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="#">Fashion</a>
++                <li class="nav-item dropdown  px-4">
++                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
++                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                        What's on
++                    </a>
++                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
++                        <a class="dropdown-item" href="#">Collections </a>
++                        <a class="dropdown-item" href="#">Exhibitions</a>
++                        <a class="dropdown-item" href="#">Concerts </a>
++                        <a class="dropdown-item" href="#">Public Events</a>
++                    </div>
+                 </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="#">Gifts</a>
++                <li class="nav-item dropdown  px-4">
++                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
++                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                        Learn & Engage
++                    </a>
++                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
++                        <a class="dropdown-item" href="learn_and_engage/overview.html">Overview </a>
++                        <a class="dropdown-item" href="learn_and_engage/courses.html">Courses </a>
++                        <a class="dropdown-item" href="learn_and_engage/programmes.html">Programmes</a>
++                        <a class="dropdown-item" href="learn_and_engage/talks.html">Talks </a>
++                        <a class="dropdown-item" href="learn_and_engage/kids_club.html">Kids Club</a>
++                    </div>
+                 </li>
+                 <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="#">Kids</a>
++                    <a class="nav-link  text-dark" href="../components/bookshop.html">Shop</a>
+                 </li>
+             </ul>
+             <form class="form-inline">
+@@ -69,9 +114,7 @@
+             </form>
+         </div>
+     </nav>
+-
+ </div>
+-
+ <div class="mt-2">
+     <div id="main-content">
+         <!-- Main Content -->
+Index: components/visit.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n\n    <meta name=\"Plan a visit\">\n    <title>Plan Your Visit | Hugh Lane Gallery</title>\n\n    <meta name=\"Author\"\n          content=\"Aleksandra Jaworska Gareth Walsh Edward Xilong Zhang Yue Yu Pragya Vashishtha\">\n    <meta name=\"description\"\n          content=\"Hugh Lane Gallery houses the foremost public collection of contemporary art in Ireland; the gallery also has a dynamic temporary exhibitions programme often encompassing the permanent collection. \" />\n    <meta name=\"keywords\"\n          content=\"Bookshop,Art Gallery Dublin, Irish Exhibitions, Modern Art Galleries, Contemporary Exhibitions, Things to do in Dublin, tourist attraction Ireland, Places To Visit Ireland, Places to Visit Dublin\" />\n\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"\n          integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"../styles/stylesheet.css\" />\n\n    <script src=\"../app.js\"></script>\n    <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\"\n            integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\"\n            crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js\"\n            integrity=\"sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx\"\n            crossorigin=\"anonymous\"></script>\n\n    <!-- Add icon library -->\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n\n\n\n</head>\n\n<body>\n<div class=\"page-header bg-light\">\n    <h1 class=\"titleHeader float-left ml-4 mt-2 \"><a href=\"../index.html\">HUGH LANE GALLERY</a></h1>\n    <h1 class=\"titleHeader float-right mr-4 mt-2 \"><a href=\"../index.html\">DÁNLANN AN HUGH LANE</a></h1>\n\n    <h2 class=\"fee\"><a>Admission free </a></h2>\n\n    <!-- Navigation menu -->\n    <nav id=\"navbar_top\" class=\"navbar navbar-expand-sm bg-light\">\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n                aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n            <span class=\"navbar-toggler-icon\"></span>\n        </button>\n        <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <!-- Links -->\n            <ul class=\"navbar-nav mr-auto\">\n                <li class=\"nav-item dropdown px-4\">\n                    <a class=\"nav-link dropdown-toggle text-dark\" href=\"#\" id=\"navbarDropdown\" role=\"button\"\n                       data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                        Art\n                    </a>\n                    <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                        <a class=\"dropdown-item\" href=\"#\">Collections </a>\n                        <a class=\"dropdown-item\" href=\"#\">Exhibitions</a>\n                        <a class=\"dropdown-item\" href=\"#\">Artists A-Z </a>\n                        <a class=\"dropdown-item\" href=\"#\">Publications A-Z</a>\n                    </div>\n                </li>\n                <li class=\"nav-item dropdown  px-4\">\n                    <a class=\"nav-link dropdown-toggle text-dark\" href=\"../components/visit.html\" id=\"navbarDropdown\" role=\"button\"\n                       data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                        Visit\n                    </a>\n                    <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                        <a class=\"dropdown-item\" href=\"../components/visit.html#opening\">Opening Hours</a>\n                        <a class=\"dropdown-item\" href=\"../components/visit.html#access\">Access & Facilities</a>\n                        <a class=\"dropdown-item\" href=\"../components/visit.html#family\">Family Tours</a>\n                        <a class=\"dropdown-item\" href=\"../components/visit.html#guided\">Guided Tours</a>\n                        <a class=\"dropdown-item\" href=\"../components/visit.html#cafe\">Café and Bookshop</a>\n                    </div>\n                </li>\n                <li class=\"nav-item dropdown  px-4\">\n                    <a class=\"nav-link dropdown-toggle text-dark\" href=\"#\" id=\"navbarDropdown\" role=\"button\"\n                       data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                        What's on\n                    </a>\n                    <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                        <a class=\"dropdown-item\" href=\"#\">Collections </a>\n                        <a class=\"dropdown-item\" href=\"#\">Exhibitions</a>\n                        <a class=\"dropdown-item\" href=\"#\">Concerts </a>\n                        <a class=\"dropdown-item\" href=\"#\">Public Events</a>\n                    </div>\n                </li>\n                <li class=\"nav-item dropdown  px-4\">\n                    <a class=\"nav-link dropdown-toggle text-dark\" href=\"#\" id=\"navbarDropdown\" role=\"button\"\n                       data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                        Learn & Engage\n                    </a>\n                    <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                        <a class=\"dropdown-item\" href=\"Learn%20&%20Engage/learn-engage.html\">Courses </a>\n                        <a class=\"dropdown-item\" href=\"Learn%20&%20Engage/learn-engage.html\">Programmes</a>\n                        <a class=\"dropdown-item\" href=\"Learn%20&%20Engage/learn-engage.html\">Talks </a>\n                        <a class=\"dropdown-item\" href=\"Learn%20&%20Engage/learn-engage.html\">Kids Club</a>\n                    </div>\n                </li>\n                <li class=\"nav-item  px-4\">\n                    <a class=\"nav-link  text-dark\" href=\"../components/bookshop.html\">Shop</a>\n                </li>\n            </ul>\n            <form class=\"form-inline\">\n                <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n                <button class=\"btn btn-outline-primary my-2 my-sm-0\" type=\"submit\">Search</button>\n            </form>\n        </div>\n    </nav>\n\n</div>\n\n    <div class=\"mt-2\">\n\n        <div class=\"card border-0 my-5\" style=\"max-width:100%\">\n            <p class=\"my-2\"><a id=\"opening\"></a></p>\n            <div class=\"row mb-5 px-5\">\n\n                <div class=\"col-md-4\">\n                    <div class=\"card-body-top visit\">\n                        <br><br><h5 class=\"card-title visit_title font-weight-bold\">Opening Hours</h5>\n                        <br><img src=\"../photos/openinghours.JPG\" width=\"480px\" height= \"auto\" class=\"card-img rounded-0\" alt=\"a woman sitting in Hugh Lane Gallery\" >\n                    </div>\n                </div>\n\n                <div class=\"col-md-8\">\n                    <div class=\"card-body visit\">\n                        <p class=\"card-text px-2 hours_text\">\n                            <br><br><br>Closed Mondays <br>\n                            Tuesday to Thursday 9.45am– 6pm <br>\n                            Friday 9.45am – 5pm <br>\n                            Saturday 10am – 5pm <br>\n                            Sunday 11am – 5pm <br> <br>\n\n                            Map available <a href=\"http://www.hughlane.ie/phocadownload/pdf/gallery_map_large_v4.pdf\">here</a> <br><br>\n\n                            <strong>Buses</strong>: 7, 11, 13, 16, 38, 40, 46A, 123 and many other bus routes pass close to the Gallery on O’Connell Street / Parnell Square. Click <a href=\"http://www.dublinbus.ie/en/Your-Journey1/City-Centre-Bus-Stops/Parnell-Square-Bus-Stops/\"> here</a>\n                            for further information. <br><br>\n\n                            <strong>Dublin Bikes Stand</strong>: Parnell Square North\n                        </p>\n                    </div>\n                </div>\n\n            </div>\n        </div>\n\n\n        <div class=\"card border-0 my-5 bg-light\" style=\"max-width:100%\">\n            <p class=\"my-5\"><a id=\"access\"></a></p>\n            <div class=\"row my-4 px-5\">\n\n                <div class=\"col-md-8\">\n                    <div class=\"card-body visit\">\n                        <p class=\"card-text px-2\">\n                            <br><br><br><br><strong>Information Desk</strong> located on the right on entrance to the Gallery.<br> <br>\n                            <strong>Toilets</strong> <br>\n                            Accessible and standard toilets are located on the ground floor entrance hallway and on basement level.<br>\n                            Baby changing facilities are available on both toilets. <br> <br>\n                            <strong>Seating</strong><br>\n                            Folding seats are available, just ask a member of staff or at the Information Desks.<br><br>\n                            <strong>Lifts</strong><br>\n                            A large lift beside the reception area, which provides access to all floors <br>\n                            A small lift in the new wing corridor that provides access from the ground floor to the first floor exhibition galleries<br><br>\n                            <strong>Cloakroom</strong> located in the basement that is accessible via steps or the lift.\n                        </p>\n                    </div>\n                </div>\n\n                <div class=\"col-md-4\">\n                    <div class=\"card-body-top visit\">\n                        <br><br><h5 class=\"card-title visit_title font-weight-bold\">Access and Facilities</h5>\n                        <br><img src=\"../photos/access.JPG\" width=\"480px\" height= \"auto\" class=\"card-img rounded-0\" alt=\"a woman sitting in Hugh Lane Gallery\" >\n                    </div>\n                </div>\n\n            </div>\n        </div>\n\n        <div class=\"card border-0 my-5\" style=\"max-width: 100% \">\n            <p class=\"my-5 px-5\"><a id=\"family\"></a></p>\n            <div class=\"row my-4\">\n                <div class=\"col-md-4\">\n                    <div class=\"card-body-top visit\">\n                        <br><br><h5 class=\"card-title visit_title font-weight-bold\">Family Tours</h5>\n                        <br><img src=\"../photos/kidsclub.JPG\" width=\"480px\" height= \"auto\" class=\"card-img rounded-0\" alt=\"Workshop in kids club at Hugh Lane\" >\n                    </div>\n                </div>\n                <div class=\"col-md-8\">\n                    <div class=\"card-body visit\">\n                        <p class=\"card-text px-2\" >\n                            <br><br><br><br>Why not bring your kids to our kids club! <br><br>\n                            The collection has been explored by children aged three to adults in their eighties during successful and popular programmes.\n                            This new programmed, multi-purpose space allows for additional experimentation. <br>\n                            <br>See lots of our lovely art idea films on the Gallery's\n                            <a href = 'https://www.youtube.com/playlist?list=PLUil_e1LlOsrodDN7Lhc6Yza2MQ2JOIgp'>video presentation</a>\n                            <br>\n                            <br>For details of upcoming art workshops for children or view the Gallery's Education Programme pdf available\n                            <a href = \"https://www.hughlane.ie/phocadownload/the%20artist%20at%20work%20and%20drawing.pdf\">here</a>\n                            <br>\n                            <br>Where advanced booking is required or where there is a workshop fee, places are booked through <a href=\"eventbrite.ie\">eventbrite.ie</a>\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"card border-0 my-5 bg-light\" style=\"max-width:100%\">\n            <p class=\"my-5 px-5\"><a id=\"guided\"></a></p>\n            <div class=\"row my-4\">\n                <div class=\"col-md-8\">\n                    <div class=\"card-body visit\">\n                        <p class=\"card-text px-2\">\n                            <br><br><br><strong>Guided Tour</strong> <br>\n                            Guided tours can be booked by prior appointment with the Gallery’s Education Department, at €30 per group up to a max of 30 per group.<br>\n                            <br>For further information, please click\n                            <a href=\"http://www.hughlane.ie/guided-tours\">here</a>\n                            <br><br>\n                            <strong>Self-guided Tour</strong> <br>\n                            Self-led group visits to the Hugh Lane are free. <br> <br>\n                            However groups must remain under the supervision of their group leaders and follow all regulations of the gallery and directions of gallery attendants.\n                            <br><br>\n                            Please contact the Education Department in advance of visiting the gallery on a self guided tour to ensure that the visit does not clash with other pre-arranged events stating in your email that you are intending to visit on a self guided visit.\n                            <br><br>\n                            <strong>Group Visits</strong><br>\n                            Due to reduced capacity during refurbishment, all tours or large groups should be booked in advance (even when a guide is not required)\n                        </p>\n                    </div>\n                </div>\n                <div class=\"col-md-4\">\n                    <div class=\"card-body-top visit\">\n                        <br><br><h5 class=\"card-title visit_title font-weight-bold\">Guided Tours</h5>\n                        <br><img src=\"../photos/group.JPG\" width=\"480px\" height= \"auto\" class=\"card-img rounded-0\" alt=\"A group of arts students visiting Hugh Lane Gallery\" >\n                    </div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"card border-0 my-5\" style=\"max-width: 100% \">\n            <p class=\"my-5 px-5\"><a id=\"cafe\"></a></p>\n            <div class=\"row my-4\">\n                <div class=\"col-md-4\">\n                    <div class=\"card-body-top visit\">\n                        <br><br><h5 class=\"card-title visit_title font-weight-bold\">Café & Bookshop</h5>\n                        <br><img src=\"../photos/cafe.JPG\" width=\"480px\" height= \"auto\" class=\"card-img rounded-0\" alt=\"Hugh Lane Gallery cafe\" >\n                    </div>\n                </div>\n                <div class=\"col-md-8\">\n                    <div class=\"card-body visit\">\n                        <div class=\"card-text px-2\" >\n                            <br><br><br><br>\n                            <p>The café, <a href = \"https://www.hatchandsons.co/\"><strong>Hatch and Sons</strong></a>,\n                            is temporarily closed but looks forward to reopening as soon as possible.\n                            <br><br>\n                            The <a href=\"bookshop.html\"><strong>bookshop</strong></a> is open during gallery hours. <br><br>\n\n                            Our Bookshop carries a wide selection, including publications about the Gallery and our exhibitions past and present. <br><br>\n\n                            All cleaned regularly. <br><br>\n\n                            For further information please email gallerybookshughlane@gmail.com <br> or telephone +353 (0)89 2202855.\n                           </p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n\n    <div id=\"footer\" class=\"bg-info\">\n\n        <!-- Navigation menu -->\n            <nav class=\"navbar navbar-expand-sm ml-4 mr-5 bg-info\">\n                <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n                        aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                    <span class=\"navbar-toggler-icon\"></span>\n                </button>\n                <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                    <!-- Links -->\n                    <ul class=\"navbar-nav mr-auto\">\n                        <li class=\"nav-item dropdown\">\n                            <a class=\"nav-link dropdown-toggle text-white\" href=\"#\" id=\"navbarDropdown\" role=\"button\"\n                               data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                                About\n                            </a>\n                            <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                                <a class=\"dropdown-item\" href=\"#\">Hugh Lane</a>\n                                <a class=\"dropdown-item\" href=\"#\">Charlemont House</a>\n                                <a class=\"dropdown-item\" href=\"#\">The Gallery</a>\n                                <div class=\"dropdown-divider\"></div>\n                                <a class=\"dropdown-item\" href=\"#\">Related Documents</a>\n                            </div>\n                        </li>\n                        <li class=\"nav-item px-4\" >\n                            <a class=\"nav-link text-white\" href=\"#\">Support</a>\n                        </li>\n                        <li class=\"nav-item \">\n                            <a class=\"nav-link text-white\" href=\"#\">Contact</a>\n                        </li>\n                        <li class=\"nav-item px-4\">\n                            <a class=\"nav-link text-white\" href=\"#\">Career</a>\n                        </li>\n                    </ul>\n                    <button type=\"button\" class=\"btn btn-primary float-right\" onclick=\"topFunction()\">Top</button>\n                </div>\n            </nav>\n            <!-- <div class=\"jumbotron\"> -->\n            <div class=\"ml-5 mr-5\">\n                <div class=\"clearfix\">\n                    <div class=\"form-group float-left\">\n                        <h2 class=\"footer-text text-white\"> <label for=\"mailList\">\n                            <br>Join our mailing list:</label> </h2>\n                        <div class=\"input-group-append\">\n                            <input type=\"text\" class=\"form-control w-100\" id=\"mailList\">\n                            <button type=\"button\" class=\"btn btn-primary ml-2\">Join</button>\n                        </div>\n                        <div>\n                            <br>  <br>\n                            <a href=\"#\" class=\"fa fa-facebook\"></a>&nbsp;&nbsp;\n                            <a href=\"#\" class=\"fa fa-twitter\"></a>&nbsp;&nbsp;\n                            <a href=\"#\" class=\"fa fa-instagram\"></a>&nbsp;&nbsp;\n                            <a href=\"#\" class=\"fa fa-youtube\"></a>&nbsp;&nbsp;\n                            <a href=\"#\" class=\"fa fa-linkedin\"></a>&nbsp;&nbsp;\n                        </div>\n\n                    </div>\n                    <div class=\"float-right\">\n                        <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9\n                            <br> <small>Closed today </small>\n                        </h2>\n                        <h2 class= \"mt-4\"><br>High Contrast Mode</h2>\n                    </div>\n                </div>\n\n                <div class=\"d-flex flex-row justify-content-center float-none\">\n                    <a class=\"p-4 text-dark\" href=\"#\">Privacy Policy</a>\n                    <a class=\"p-4 text-dark\" href=\"#\">Terms of use</a>\n                </div>\n            </div>\n        </div>\n    </div>\n\n</body>\n\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/components/visit.html b/components/visit.html
+--- a/components/visit.html	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
++++ b/components/visit.html	(date 1617361112362)
+@@ -34,20 +34,30 @@
+ </head>
+ 
+ <body>
+-<div class="page-header bg-light">
+-    <h1 class="titleHeader float-left ml-4 mt-2 "><a href="../index.html">HUGH LANE GALLERY</a></h1>
+-    <h1 class="titleHeader float-right mr-4 mt-2 "><a href="../index.html">DÁNLANN AN HUGH LANE</a></h1>
++<div class="page-header">
++    <h1 class="titleHeader float-left ml-4 mt-2 "><a href="index.html">HUGH LANE GALLERY
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++        &nbsp; &nbsp; &nbsp; &nbsp;
++        DÁNLANN AN HUGH LANE</a></h1>
++    <p>&nbsp</p>
++    <p>&nbsp</p>
+ 
+-    <h2 class="fee"><a>Admission free </a></h2>
+ 
+     <!-- Navigation menu -->
+-    <nav id="navbar_top" class="navbar navbar-expand-sm bg-light">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
++    <nav id="nav-top" class="navbar navbar-expand-md bg-white navbar-dark">
++
++        <!-- Toggler/collapsibe Button -->
++        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
++            <span class="navbar-toggler-icon bg-primary"></span>
+         </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
++
++        <!-- Navbar links -->
++        <div class="collapse navbar-collapse" id="collapsibleNavbar">
++
+             <ul class="navbar-nav mr-auto">
+                 <li class="nav-item dropdown px-4">
+                     <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+@@ -92,10 +102,11 @@
+                         Learn & Engage
+                     </a>
+                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+-                        <a class="dropdown-item" href="Learn%20&%20Engage/learn-engage.html">Courses </a>
+-                        <a class="dropdown-item" href="Learn%20&%20Engage/learn-engage.html">Programmes</a>
+-                        <a class="dropdown-item" href="Learn%20&%20Engage/learn-engage.html">Talks </a>
+-                        <a class="dropdown-item" href="Learn%20&%20Engage/learn-engage.html">Kids Club</a>
++                        <a class="dropdown-item" href="learn_and_engage/overview.html">Overview </a>
++                        <a class="dropdown-item" href="learn_and_engage/courses.html">Courses </a>
++                        <a class="dropdown-item" href="learn_and_engage/programmes.html">Programmes</a>
++                        <a class="dropdown-item" href="learn_and_engage/talks.html">Talks </a>
++                        <a class="dropdown-item" href="learn_and_engage/kids_club.html">Kids Club</a>
+                     </div>
+                 </li>
+                 <li class="nav-item  px-4">
+@@ -108,7 +119,6 @@
+             </form>
+         </div>
+     </nav>
+-
+ </div>
+ 
+     <div class="mt-2">
+@@ -190,13 +200,13 @@
+                 <div class="col-md-8">
+                     <div class="card-body visit">
+                         <p class="card-text px-2" >
+-                            <br><br><br><br>Why not bring your kids to our kids club! <br><br>
++                            <br><br><br><br>Why not bring your kids to our <a href="Learn%20&%20Engage/Kids Club.html">kids club!</a><br><br>
+                             The collection has been explored by children aged three to adults in their eighties during successful and popular programmes.
+                             This new programmed, multi-purpose space allows for additional experimentation. <br>
+                             <br>See lots of our lovely art idea films on the Gallery's
+                             <a href = 'https://www.youtube.com/playlist?list=PLUil_e1LlOsrodDN7Lhc6Yza2MQ2JOIgp'>video presentation</a>
+                             <br>
+-                            <br>For details of upcoming art workshops for children or view the Gallery's Education Programme pdf available
++                            <br>For details of upcoming art workshops for children, the Gallery's Education Programme pdf is available
+                             <a href = "https://www.hughlane.ie/phocadownload/the%20artist%20at%20work%20and%20drawing.pdf">here</a>
+                             <br>
+                             <br>Where advanced booking is required or where there is a workshop fee, places are booked through <a href="eventbrite.ie">eventbrite.ie</a>
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n    <meta charset=\"UTF-8\">\n\n    <meta name=\"viewport\">\n    <title>Hugh Lane Gallery</title>\n\n    <meta name=\"Author\"\n        content=\"Aleksandra Jaworska Gareth Walsh Edward Xilong Zhang Yue Yu Pragya Vashishtha I am so happy says Edward\">\n    <meta name=\"description\"\n        content=\"Hugh Lane Gallery houses the foremost public collection of contemporary art in Ireland; the gallery also has a dynamic temporary exhibitions programme often encompassing the permanent collection. \" />\n    <meta name=\"keywords\"\n        content=\"Art Gallery Dublin, Irish Exhibitions, Modern Art Galleries, Contemporary Exhibitions, Things to do in Dublin, tourist attraction Ireland, Places To Visit Ireland, Places to Visit Dublin\" />\n\n    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\"\n        integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"styles/stylesheet.css\" />\n    <!-- Add icon library -->\n    <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\n\n    <script src=\"app.js\"></script>\n    <script src=\"https://code.jquery.com/jquery-3.5.1.slim.min.js\"\n        integrity=\"sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj\"\n        crossorigin=\"anonymous\"></script>\n    <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js\"\n        integrity=\"sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx\"\n        crossorigin=\"anonymous\"></script>\n\n</head>\n\n<body>\n    <div class=\"page-header\">\n        <h1 class=\"titleHeader float-left ml-4 mt-2 \"><a href=\"index.html\">HUGH LANE GALLERY</a></h1>\n        <h1 class=\"titleHeader float-right mr-4 mt-2 \"><a href=\"index.html\">DÁNLANN AN HUGH LANE</a></h1>\n\n        <h2 class=\"fee\"><a>Admission free </a></h2>\n\n        <!-- Navigation menu -->\n        <nav id=\"navbar_top\" class=\"navbar navbar-expand-sm bg-white\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n                aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <!-- Links -->\n                <ul class=\"navbar-nav mr-auto\">\n                    <li class=\"nav-item dropdown px-4\">\n                        <a class=\"nav-link dropdown-toggle text-dark\" href=\"#\" id=\"navbarDropdown\" role=\"button\"\n                            data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                            Art\n                        </a>\n                        <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                            <a class=\"dropdown-item\" href=\"components/art/collections.html\">Collections </a>\n                            <a class=\"dropdown-item\" href=\"components/art/exhibitions.html\">Exhibitions</a>\n                            <a class=\"dropdown-item\" href=\"components/art/artists.html\">Artists A-Z </a>\n                            <a class=\"dropdown-item\" href=\"components/art/publications.html\">Publications A-Z</a>\n                        </div>\n                    </li>\n                    <li class=\"nav-item dropdown  px-4\">\n                        <a href =\"components/visit.html\" class=\"nav-link dropdown-toggle text-dark\" href=\"components/visit.html\" id=\"navbarDropdown\" role=\"button\"\n                            data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                            Visit\n                        </a>\n                        <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                            <a class=\"dropdown-item\" href=\"components/visit.html#opening\">Opening Hours</a>\n                            <a class=\"dropdown-item\" href=\"components/visit.html#access\">Access & Facilities</a>\n                            <a class=\"dropdown-item\" href=\"components/visit.html#family\">Family Tours</a>\n                            <a class=\"dropdown-item\" href=\"components/visit.html#guided\">Guided Tours</a>\n                            <a class=\"dropdown-item\" href=\"components/visit.html#cafe\">Café and Bookshop</a>\n                        </div>\n                    </li>\n                    <li class=\"nav-item dropdown  px-4\">\n                        <a class=\"nav-link dropdown-toggle text-dark\" href=\"#\" id=\"navbarDropdown\" role=\"button\"\n                            data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                            What's on\n                        </a>\n                        <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                            <a class=\"dropdown-item\" href=\"#\">Collections </a>\n                            <a class=\"dropdown-item\" href=\"#\">Exhibitions</a>\n                            <a class=\"dropdown-item\" href=\"#\">Concerts </a>\n                            <a class=\"dropdown-item\" href=\"#\">Public Events</a>\n                        </div>\n                    </li>\n                    <li class=\"nav-item dropdown  px-4\">\n                        <a class=\"nav-link dropdown-toggle text-dark\" href=\"#\" id=\"navbarDropdown\" role=\"button\"\n                            data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                            Learn & Engage\n                        </a>\n                        <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                            <a class=\"dropdown-item\" href=\"components/Learn & Engage/learn-engage.html\">Overview </a>\n                            <a class=\"dropdown-item\" href=\"components/Learn & Engage/courses.html\">Courses </a>\n                            <a class=\"dropdown-item\" href=\"components/Learn & Engage/Programmes.html\">Programmes</a>\n                            <a class=\"dropdown-item\" href=\"components/Learn & Engage/Talks.html\">Talks </a>\n                            <a class=\"dropdown-item\" href=\"components/Learn & Engage/Kids Club.html\">Kids Club</a>\n                        </div>\n                    </li>\n                    <li class=\"nav-item  px-4\">\n                        <a class=\"nav-link  text-dark\" href=\"components/bookshop.html\">Shop</a>\n                    </li>\n                </ul>\n                <form class=\"form-inline\">\n                    <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n                    <button class=\"btn btn-outline-primary my-2 my-sm-0\" type=\"submit\">Search</button>\n                </form>\n            </div>\n        </nav>\n\n    </div>\n\n    <div class=\"mt-2\">\n        <!-- Carousal 1  -->\n        <div id=\"main-content\">\n            <!-- Main Content -->\n            <div id=\"carouselExampleIndicators\" class=\"carousel slide\" data-ride=\"carousel\">\n                <ol class=\"carousel-indicators\">\n                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"0\" class=\"active\"></li>\n                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"1\"></li>\n                    <li data-target=\"#carouselExampleIndicators\" data-slide-to=\"2\"></li>\n                </ol>\n\n                <!-- //TODO: 1. Add background to text-caption;\n                // 2. Add hover opacity change to image -->\n                <div class=\"carousel-inner\">\n                    <div class=\"carousel-item active\">\n                        <img class=\"d-block w-100 h-25 fit-image img-fluid\" src=\"photos/home_1.png\" alt=\"First slide\">\n                        <div class=\"carousel-caption d-none d-md-block bg-dark\">\n                            <h5 >New Sir Hugh Lane Bequest agreement announced</h5>\n                            <p >Fourth agreement between Hugh Lane Gallery and National Gallery, London successfully concluded</p>\n                        </div>\n                    </div>\n                    <div class=\"carousel-item\">\n                        <img class=\"d-block w-100 h-25 fit-image img-fluid\" src=\"photos/home_2.png\" alt=\"Second slide\">\n                        <div class=\"carousel-caption d-none d-md-block bg-dark\">\n                            <h5 >Maud Cotter </h5>\n                            <p > A consequence of – a dappled world</p>\n                        </div>\n                    </div>\n                    <div class=\"carousel-item\">\n                        <img class=\"d-block w-100 h-25 fit-image img-fluid\" src=\"photos/home_4.png\" alt=\"Third slide\">\n                        <div class=\"carousel-caption d-none d-md-block bg-dark\">\n                            <h5 >Sundays@Noon Online</h5>\n                            <p >Click here to watch: 28th March</p>\n                        </div>\n                    </div>\n                </div>\n                <a class=\"carousel-control-prev\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"prev\">\n                    <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n                    <span class=\"sr-only\">Previous</span>\n                </a>\n                <a class=\"carousel-control-next\" href=\"#carouselExampleIndicators\" role=\"button\" data-slide=\"next\">\n                    <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n                    <span class=\"sr-only\">Next</span>\n                </a>\n            </div>\n\n        </div>\n\n        <!-- Cards -->\n\n                    <div class=\"card border-0\" style=\"max-width:100%\">\n                <div class=\"row \">\n                    <div class=\"col-md-7\">\n                        <img src=\"photos/home_1.png\" class=\"card-img rounded-0\" alt=\"...\" >\n                    </div>\n                    <div class=\"col-md-5\">\n                        <div class=\"card-body\">\n                            <h5 class=\"card-title\">New Sir Hugh Lane Bequest agreement announced</h5>\n                            <p class=\"card-text\">Fourth agreement between Hugh Lane Gallery and National Gallery, London successfully concluded</p>\n                            <p class=\"card-text\"><small class=\"text-muted\">Last updated 3 mins ago</small></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n\n            <div class=\"card border-0\" style=\"max-width:100%\">\n                <div class=\"row\">\n                    <div class=\"col-md-5 \">\n                        <div class=\"card-body \">\n                            <h5 class=\"card-title \">Maud Cotter</h5>\n                            <p class=\"card-text\">a consequence of – a dappled world\n                                <br>5 May – 25 July 2021</p>\n                            <p class=\"card-text\"><small class=\"text-muted\">Last updated 10 mins ago</small></p>\n                        </div>\n                    </div>\n                    <div class=\"col-md-7\">\n                        <img src=\"photos/home_2.png\" class=\"card-img rounded-0\" alt=\"...\">\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card border-0\" style=\"max-width: 100% \">\n                <div class=\"row\">\n                    <div class=\"col-md-7 \">\n                        <img src=\"photos/home_3.png\" class=\"card-img rounded-0\" alt=\"...\">\n                    </div>\n                    <div class=\"col-md-5\">\n                        <div class=\"card-body\">\n                            <h5 class=\"card-title\">Sundays@Noon Online</h5>\n                            <p class=\"card-text\">Click here to watch: 28th March</p>\n                            <p class=\"card-text\"><small class=\"text-muted\">Last updated 2 days ago</small></p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card border-0\" style=\"max-width:100%\">\n                <div class=\"row\">\n                    <div class=\"col-md-5 \">\n                        <div class=\"card-body \">\n                            <h5 class=\"card-title \">Zooom @Hugh Lane Gallery</h5>\n                            <p class=\"card-text\">Our innovative city-wide project for primary schools. Watch our virtual tour and imaginative project film showcased on European wide 'Museums in Short' initiative.</p>\n                            <p class=\"card-text\"><small class=\"text-muted\">Last updated 10 days ago</small></p>\n                        </div>\n                    </div>\n                    <div class=\"col-md-7\">\n                        <img src=\"photos/home_4.png\" class=\"card-img rounded-0\" alt=\"...\">\n                    </div>\n                </div>\n            </div>\n    </div>\n    <div id=\"footer\" class=\"bg-info\">\n\n        <!-- Navigation menu -->\n        <nav class=\"navbar navbar-expand-sm ml-4 mr-5 bg-info\">\n            <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\"\n                aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n                <span class=\"navbar-toggler-icon\"></span>\n            </button>\n            <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n                <!-- Links -->\n                <ul class=\"navbar-nav mr-auto\">\n                    <li class=\"nav-item dropdown\">\n                        <a class=\"nav-link dropdown-toggle text-white\" href=\"#\" id=\"navbarDropdown\" role=\"button\"\n                            data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n                            About\n                        </a>\n                        <div class=\"dropdown-menu\" aria-labelledby=\"navbarDropdown\">\n                            <a class=\"dropdown-item\" href=\"components/about/hugh-lane.html\">Hugh Lane</a>\n                            <a class=\"dropdown-item\" href=\"components/about/charlemont-house.html\">Charlemont House</a>\n                            <a class=\"dropdown-item\" href=\"components/about/the-gallery.html\">The Gallery</a>\n                            <div class=\"dropdown-divider\"></div>\n                            <a class=\"dropdown-item\" href=\"#\">Related Documents</a>\n                        </div>\n                    </li>\n                    <li class=\"nav-item px-4\" >\n                        <a class=\"nav-link text-white\" href=\"#\">Support</a>\n                    </li>\n                    <li class=\"nav-item \">\n                        <a class=\"nav-link text-white\" href=\"components/contact.html\">Contact</a>\n                    </li>\n                    <li class=\"nav-item px-4\">\n                        <a class=\"nav-link text-white\" href=\"#\">Career</a>\n                    </li>\n                </ul>\n                <button type=\"button\" class=\"btn btn-primary float-right\" onclick=\"topFunction()\">Top</button>\n            </div>\n        </nav>\n        <!-- <div class=\"jumbotron\"> -->\n        <div class=\"ml-5 mr-5\">\n            <div class=\"clearfix\"> \n            <div class=\"form-group float-left\">\n                <h2 class=\"footer-text text-white\"> <label for=\"mailList\">\n                    <br>Join our mailing list:</label> </h2>\n                <div class=\"input-group-append\">\n                    <input type=\"text\" class=\"form-control w-100\" id=\"mailList\">\n                    <button type=\"button\" class=\"btn btn-primary ml-2\">Join</button>    \n                </div>\n                <div>\n                    <br>  <br>\n                    <a href=\"#\" class=\"fa fa-facebook\"></a>&nbsp;&nbsp;\n                    <a href=\"#\" class=\"fa fa-twitter\"></a>&nbsp;&nbsp;\n                    <a href=\"#\" class=\"fa fa-instagram\"></a>&nbsp;&nbsp;\n                    <a href=\"#\" class=\"fa fa-youtube\"></a>&nbsp;&nbsp;\n                    <a href=\"#\" class=\"fa fa-linkedin\"></a>&nbsp;&nbsp;\n                </div>\n\n            </div>\n            <div class=\"float-right\">\n                <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9\n                    <br> <small>Closed today </small>\n                </h2>\n                <h2 class= \"mt-4\"><br>High Contrast Mode</h2>\n            </div>\n        </div>\n\n            <div class=\"d-flex flex-row justify-content-center float-none\">\n                <a class=\"p-4 text-dark\" href=\"#\">Privacy Policy</a>\n                <a class=\"p-4 text-dark\" href=\"#\">Terms of use</a>\n            </div>\n        </div>\n        <!-- </div> -->\n    </div>\n\n\n</body>\n\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/index.html b/index.html
+--- a/index.html	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
++++ b/index.html	(date 1617361185568)
+@@ -17,6 +17,7 @@
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css" />
++
+     <!-- Add icon library -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+@@ -32,35 +33,45 @@
+ 
+ <body>
+     <div class="page-header">
+-        <h1 class="titleHeader float-left ml-4 mt-2 "><a href="index.html">HUGH LANE GALLERY</a></h1>
+-        <h1 class="titleHeader float-right mr-4 mt-2 "><a href="index.html">DÁNLANN AN HUGH LANE</a></h1>
++        <h1 class="titleHeader float-left ml-4 mt-2 "><a href="index.html">HUGH LANE GALLERY
++            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
++            &nbsp; &nbsp; &nbsp; &nbsp;
++            DÁNLANN AN HUGH LANE</a></h1>
++        <p>&nbsp</p>
++        <p>&nbsp</p>
+ 
+-        <h2 class="fee"><a>Admission free </a></h2>
+ 
+         <!-- Navigation menu -->
+-        <nav id="navbar_top" class="navbar navbar-expand-sm bg-white">
+-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-                <span class="navbar-toggler-icon"></span>
++        <nav id="nav-top" class="navbar navbar-expand-md bg-white navbar-dark">
++
++            <!-- Toggler/collapsibe Button -->
++            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
++                <span class="navbar-toggler-icon bg-primary"></span>
+             </button>
+-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-                <!-- Links -->
++
++            <!-- Navbar links -->
++            <div class="collapse navbar-collapse" id="collapsibleNavbar">
++
+                 <ul class="navbar-nav mr-auto">
+                     <li class="nav-item dropdown px-4">
+                         <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Art
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+-                            <a class="dropdown-item" href="components/art/collections.html">Collections </a>
+-                            <a class="dropdown-item" href="components/art/exhibitions.html">Exhibitions</a>
+-                            <a class="dropdown-item" href="components/art/artists.html">Artists A-Z </a>
+-                            <a class="dropdown-item" href="components/art/publications.html">Publications A-Z</a>
++                            <a class="dropdown-item" href="#">Collections </a>
++                            <a class="dropdown-item" href="#">Exhibitions</a>
++                            <a class="dropdown-item" href="#">Artists A-Z </a>
++                            <a class="dropdown-item" href="#">Publications A-Z</a>
+                         </div>
+                     </li>
+                     <li class="nav-item dropdown  px-4">
+-                        <a href ="components/visit.html" class="nav-link dropdown-toggle text-dark" href="components/visit.html" id="navbarDropdown" role="button"
+-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                        <a class="nav-link dropdown-toggle text-dark" href="../components/visit.html" id="navbarDropdown" role="button"
++                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Visit
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+@@ -73,7 +84,7 @@
+                     </li>
+                     <li class="nav-item dropdown  px-4">
+                         <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             What's on
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+@@ -85,15 +96,15 @@
+                     </li>
+                     <li class="nav-item dropdown  px-4">
+                         <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
++                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                             Learn & Engage
+                         </a>
+                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+-                            <a class="dropdown-item" href="components/Learn & Engage/learn-engage.html">Overview </a>
+-                            <a class="dropdown-item" href="components/Learn & Engage/courses.html">Courses </a>
+-                            <a class="dropdown-item" href="components/Learn & Engage/Programmes.html">Programmes</a>
+-                            <a class="dropdown-item" href="components/Learn & Engage/Talks.html">Talks </a>
+-                            <a class="dropdown-item" href="components/Learn & Engage/Kids Club.html">Kids Club</a>
++                            <a class="dropdown-item" href="components/learn_and_engage/overview.html">Overview </a>
++                            <a class="dropdown-item" href="components/learn_and_engage/courses.html">Courses </a>
++                            <a class="dropdown-item" href="components/learn_and_engage/programmes.html">Programmes</a>
++                            <a class="dropdown-item" href="components/learn_and_engage/talks.html">Talks </a>
++                            <a class="dropdown-item" href="components/learn_and_engage/kids_club.html">Kids Club</a>
+                         </div>
+                     </li>
+                     <li class="nav-item  px-4">
+@@ -106,7 +117,6 @@
+                 </form>
+             </div>
+         </nav>
+-
+     </div>
+ 
+     <div class="mt-2">
+Index: components/Learn & Engage/courses.html
+===================================================================
+diff --git a/components/Learn & Engage/courses.html b/components/Learn & Engage/courses.html
+deleted file mode 100644
+--- a/components/Learn & Engage/courses.html	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
++++ /dev/null	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
+@@ -1,255 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-
+-<head>
+-    <meta charset="UTF-8">
+-
+-    <meta name="courses">
+-    <title>Join our courses</title>
+-
+-    <meta name="Author"
+-          content="Aleksandra Jaworska Gareth Walsh Edward Xilong Zhang Yue Yu Pragya Vashishtha">
+-    <meta name="description"
+-          content="Hugh Lane Gallery houses the foremost public collection of contemporary art in Ireland; the gallery also has a dynamic temporary exhibitions programme often encompassing the permanent collection. " />
+-    <meta name="keywords"
+-          content="Bookshop,Art Gallery Dublin, Irish Exhibitions, Modern Art Galleries, Contemporary Exhibitions, Things to do in Dublin, tourist attraction Ireland, Places To Visit Ireland, Places to Visit Dublin" />
+-
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+-    <link rel="stylesheet" type="text/css" href="../../styles/stylesheet.css" />
+-
+-    <script src="app.js"></script>
+-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+-            crossorigin="anonymous"></script>
+-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+-            crossorigin="anonymous"></script>
+-
+-    <!-- Add icon library -->
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+-
+-
+-
+-</head>
+-
+-<body>
+-<div class="page-header">
+-    <h1 class="titleHeader float-left ml-4 mt-2 text-info"><a href = "../../index.html">HUGH LANE GALLERY</a></h1>
+-    <h1 class="titleHeader float-right mr-4 mt-2 text-info"><a href = "../../index.html">DÁNLANN AN HUGH LANE</a></h1>
+-
+-    <h2 class="fee"><a>Admission free </a></h2>
+-
+-    <!-- Navigation menu -->
+-    <nav id="navbar_top" class="navbar navbar-expand-sm bg-white">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="learn-engage.html">Overview</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="courses.html">Courses</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Programmes.html">Programmes</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Talks.html">Talks</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Kids Club.html">Kids Club</a>
+-                </li>
+-            </ul>
+-            <form class="form-inline">
+-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+-                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+-            </form>
+-        </div>
+-    </nav>
+-
+-</div>
+-
+-
+-<!-- Main content -->
+-
+-<!-- First card -->
+-
+-<div class="card border-0" style="max-width:100%">
+-    <div class="row ">
+-        <div class="col-md-7">
+-            <img src="../../photos/Adultart.png" class="card-img rounded-0" alt="Images of adult art courses" >
+-        </div>
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title"><b>Adult courses</b></h5>
+-                <p class="card-text">
+-                    Online: Peoples College Lectures Series<br>
+-                    <small class="text-muted">03 October 2020 - 17 April 2021</small></p>
+-
+-                <p class="card-text">Online Art History Lectures series: Avenues into Modern and Contemporary Art<br>
+-                    <small class="text-muted">Saturdays 3 October 2020 - Saturday 17 April</small></p>
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-<!-- Second card -->
+-
+-<div class="card border-0" style="max-width:100%">
+-    <div class="row">
+-        <div class="col-md-5 ">
+-            <div class="card-body ">
+-                <h5 class="card-title "><b>Portfolio Courses</b></h5>
+-                <p class="card-text"> Online: 16-week portfolio preparation courses for third level education<br>
+-                    <small class="text-muted">Gallery’s Learning Resource Centre from September - January</small></p>
+-
+-                <p class="card-text">Online: Portfolio workshops of shorter duration and aimed at second level students<br>
+-                    <small class="text-muted">During the summer and mid-term break</small></p>
+-            </div>
+-        </div>
+-        <div class="col-md-7">
+-            <img src="../../photos/portfolio.png" class="card-img rounded-0" alt="Image of portfolio courses">
+-        </div>
+-    </div>
+-</div>
+-
+-<!-- Third card -->
+-
+-<div class="card border-0" style="max-width:100%">
+-    <div class="row ">
+-        <div class="col-md-7">
+-            <img src="../../photos/arthis.png" class="card-img rounded-0" alt="Image of Art History courses" >
+-        </div>
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title"><b>Art History Courses</b></h5>
+-                <p class="card-text">Online: Art History Lectures series: Avenues into Modern and Contemporary Art<br>
+-                    <small class="text-muted">Saturdays 3 October 2020 - Saturday 17 April 2021 ( excl. 24 Oct, 19, 26 Dec 2 Jan, 3 April) 11am-Noon<br>
+-                        Fee: €135<br>
+-                        Book: Places can be booked by contacting 01 8735879, e. info@peoplescollege.ie</small></p>
+-                <p class="card-text">Online: Art History Lectures Series: Artists and their Travels<br>
+-                    <small class="text-muted">Wednesdays 3 March -31 March 2021 2.30pm-3.30pm</small></p>
+-                <p class="card-text">Online Hugh Lane UCD Lectures Series 2021<br>
+-                    <small class="text-muted">Exploring the Collection of the Hugh Lane Gallery</small></p>
+-
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-<!-- Fourth card -->
+-
+-<div class="card border-0" style="max-width:100%">
+-    <div class="row">
+-        <div class="col-md-5 ">
+-            <div class="card-body ">
+-                <h5 class="card-title "><b>In Service Courses for Teachers</b></h5>
+-                <p class="card-text">Avenues into Modern and Contemporary Art</p>
+-                <p class="card-text"><small class="text-muted">Please keep an eye on our website for details of future
+-                    week-long summer courses which aim to introduce teachers to a variety of modern and contemporary art practices,
+-                    through looking, discussing and making art.</small></p>
+-            </div>
+-        </div>
+-        <div class="col-md-7">
+-            <img src="../../photos/teacher.png" class="card-img rounded-0" alt="Images of In Service Courses for Teachers">
+-        </div>
+-    </div>
+-</div>
+-
+-<div class="card border-0" style="max-width: 100% ">
+-    <div class="row">
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title">Contact</h5>
+-                <p class="card-text"><small class="text-muted">Jessica O'Donnell<br>
+-                    e: jodonnell.hughlane@dublincity.ie<br>
+-                    t: +353 1 222 5558<br>
+-                </small></p>
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-
+-<!-- Footer -->
+-
+-<div id="footer" class="bg-info">
+-
+-    <!-- Navigation menu -->
+-    <nav class="navbar navbar-expand-sm ml-4 mr-5 bg-info">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item dropdown">
+-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+-                        About
+-                    </a>
+-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+-                        <a class="dropdown-item" href="#">Hugh Lane</a>
+-                        <a class="dropdown-item" href="#">Charlemont House</a>
+-                        <a class="dropdown-item" href="#">The Gallery</a>
+-                        <div class="dropdown-divider"></div>
+-                        <a class="dropdown-item" href="#">Related Documents</a>
+-                    </div>
+-                </li>
+-                <li class="nav-item px-4" >
+-                    <a class="nav-link text-white" href="#">Support</a>
+-                </li>
+-                <li class="nav-item ">
+-                    <a class="nav-link text-white" href="#">Contact</a>
+-                </li>
+-                <li class="nav-item px-4">
+-                    <a class="nav-link text-white" href="#">Career</a>
+-                </li>
+-            </ul>
+-            <button type="button" class="btn btn-primary float-right" onclick="topFunction()">Top</button>
+-        </div>
+-    </nav>
+-    <!-- <div class="jumbotron"> -->
+-    <div class="ml-5 mr-5">
+-        <div class="clearfix">
+-            <div class="form-group float-left">
+-                <h2 class="footer-text text-white"> <label for="mailList">
+-                    <br>Join our mailing list:</label> </h2>
+-                <div class="input-group-append">
+-                    <input type="text" class="form-control w-100" id="mailList">
+-                    <button type="button" class="btn btn-primary ml-2">Join</button>
+-                </div>
+-                <div>
+-                    <br>  <br>
+-                    <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-youtube"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-linkedin"></a>&nbsp;&nbsp;
+-                </div>
+-
+-            </div>
+-            <div class="float-right">
+-                <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9
+-                    <br> <small>Closed today </small>
+-                </h2>
+-                <h2 class= "mt-4"><br>High Contrast Mode</h2>
+-            </div>
+-        </div>
+-
+-        <div class="d-flex flex-row justify-content-center float-none">
+-            <a class="p-4 text-dark" href="#">Privacy Policy</a>
+-            <a class="p-4 text-dark" href="#">Terms of use</a>
+-        </div>
+-    </div>
+-</div>
+-</div>
+-
+-</body>
+-</html>
+\ No newline at end of file
+Index: components/Learn & Engage/learn-engage.html
+===================================================================
+diff --git a/components/Learn & Engage/learn-engage.html b/components/Learn & Engage/learn-engage.html
+deleted file mode 100644
+--- a/components/Learn & Engage/learn-engage.html	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
++++ /dev/null	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
+@@ -1,230 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-
+-<head>
+-    <meta charset="UTF-8">
+-
+-    <meta name="Learn & Engage">
+-    <title>Hughlane Gallery Education</title>
+-
+-    <meta name="Author"
+-          content="Aleksandra Jaworska Gareth Walsh Edward Xilong Zhang Yue Yu Pragya Vashishtha I am so happy says Edward">
+-    <meta name="description"
+-          content="Hugh Lane Gallery houses the foremost public collection of contemporary art in Ireland; the gallery also has a dynamic temporary exhibitions programme often encompassing the permanent collection. " />
+-    <meta name="keywords"
+-          content="Art Gallery Dublin, Irish Exhibitions, Modern Art Galleries, Contemporary Exhibitions, Things to do in Dublin, tourist attraction Ireland, Places To Visit Ireland, Places to Visit Dublin" />
+-
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+-    <link rel="stylesheet" type="text/css" href="../../styles/stylesheet.css" />
+-    <!-- Add icon library -->
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+-
+-    <script src="app.js"></script>
+-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+-            crossorigin="anonymous"></script>
+-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+-            crossorigin="anonymous"></script>
+-
+-</head>
+-
+-<body>
+-<div class="page-header">
+-    <h1 class="titleHeader float-left ml-4 mt-2 text-info"><a href = "../../index.html">HUGH LANE GALLERY</a></h1>
+-    <h1 class="titleHeader float-right mr-4 mt-2 text-info"><a href = "../../index.html">DÁNLANN AN HUGH LANE</a></h1>
+-
+-    <h2 class="fee"><a>Admission free </a></h2>
+-
+-    <!-- Navigation menu -->
+-    <nav id="navbar_top" class="navbar navbar-expand-sm bg-white">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="learn-engage.html">Overview</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="courses.html">Courses</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Programmes.html">Programmes</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Talks.html">Talks</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Kids Club.html">Kids Club</a>
+-                </li>
+-            </ul>
+-            <form class="form-inline">
+-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+-                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+-            </form>
+-        </div>
+-    </nav>
+-
+-</div>
+-
+-<div class="mt-2">
+-
+-    <!-- Cards -->
+-
+-    <div class="card border-0" style="max-width:100%">
+-        <div class="row ">
+-            <div class="col-md-7">
+-                <img src="../../photos/courses.png" class="card-img rounded-0" alt="Images of hughlane gallery's courses." >
+-            </div>
+-            <div class="col-md-5">
+-                <div class="card-body">
+-                    <h5 class="card-title">Courses</h5>
+-                    <p class="card-text">Find your favourite courses and join us</p>
+-                    <p class="card-text"><small class="text-muted"></small></p>
+-                </div>
+-            </div>
+-        </div>
+-    </div>
+-
+-
+-    <div class="card border-0" style="max-width:100%">
+-        <div class="row">
+-            <div class="col-md-5 ">
+-                <div class="card-body ">
+-                    <h5 class="card-title ">Programmes</h5>
+-                    <p class="card-text">Online Transition Year Programme 2021</p>
+-                    <p class="card-text"><small class="text-muted"></small></p>
+-                </div>
+-            </div>
+-            <div class="col-md-7">
+-                <img src="../../photos/programmes.png" class="card-img rounded-0" alt="Image of hughlane Gallery's programmes.">
+-            </div>
+-        </div>
+-    </div>
+-
+-    <div class="card border-0" style="max-width: 100% ">
+-        <div class="row">
+-            <div class="col-md-7 ">
+-                <img src="../../photos/talks.png" class="card-img rounded-0" alt="Image of hughlane Gallery's Talks.">
+-            </div>
+-            <div class="col-md-5">
+-                <div class="card-body">
+-                    <h5 class="card-title">Talks</h5>
+-                    <p class="card-text">Seminars and Symposia</p>
+-                    <p class="card-text"><small class="text-muted"></small></p>
+-                </div>
+-            </div>
+-        </div>
+-    </div>
+-
+-    <div class="card border-0" style="max-width:100%">
+-        <div class="row">
+-            <div class="col-md-5 ">
+-                <div class="card-body ">
+-                    <h5 class="card-title ">Kids Club</h5>
+-                    <p class="card-text">About Children Workshops</p>
+-                    <p class="card-text"><small class="text-muted"></small></p>
+-                </div>
+-            </div>
+-            <div class="col-md-7">
+-                <img src="../../photos/kids_1.png" class="card-img rounded-0" alt="Kids Workshop Images">
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-<div class="card border-0" style="max-width: 100% ">
+-    <div class="row">
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title">Contact</h5>
+-                <p class="card-text"><small class="text-muted">Jessica O'Donnell<br>
+-                    e: jodonnell.hughlane@dublincity.ie<br>
+-                    t: +353 1 222 5558<br>
+-                </small></p>
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-<div id="footer" class="bg-info">
+-
+-    <!-- Navigation menu -->
+-    <nav class="navbar navbar-expand-sm ml-4 mr-5 bg-info">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item dropdown">
+-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+-                        About
+-                    </a>
+-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+-                        <a class="dropdown-item" href="components/about/hugh-lane.html">Hugh Lane</a>
+-                        <a class="dropdown-item" href="components/about/charlemont-house.html">Charlemont House</a>
+-                        <a class="dropdown-item" href="components/about/the-gallery.html">The Gallery</a>
+-                        <div class="dropdown-divider"></div>
+-                        <a class="dropdown-item" href="#">Related Documents</a>
+-                    </div>
+-                </li>
+-                <li class="nav-item px-4" >
+-                    <a class="nav-link text-white" href="#">Support</a>
+-                </li>
+-                <li class="nav-item ">
+-                    <a class="nav-link text-white" href="#">Contact</a>
+-                </li>
+-                <li class="nav-item px-4">
+-                    <a class="nav-link text-white" href="#">Career</a>
+-                </li>
+-            </ul>
+-            <button type="button" class="btn btn-primary float-right" onclick="topFunction()">Top</button>
+-        </div>
+-    </nav>
+-    <!-- <div class="jumbotron"> -->
+-    <div class="ml-5 mr-5">
+-        <div class="clearfix">
+-            <div class="form-group float-left">
+-                <h2 class="footer-text text-white"> <label for="mailList">
+-                    <br>Join our mailing list:</label> </h2>
+-                <div class="input-group-append">
+-                    <input type="text" class="form-control w-100" id="mailList">
+-                    <button type="button" class="btn btn-primary ml-2">Join</button>
+-                </div>
+-                <div>
+-                    <br>  <br>
+-                    <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-youtube"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-linkedin"></a>&nbsp;&nbsp;
+-                </div>
+-
+-            </div>
+-            <div class="float-right">
+-                <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9
+-                    <br> <small>Closed today </small>
+-                </h2>
+-                <h2 class= "mt-4"><br>High Contrast Mode</h2>
+-            </div>
+-        </div>
+-
+-        <div class="d-flex flex-row justify-content-center float-none">
+-            <a class="p-4 text-dark" href="#">Privacy Policy</a>
+-            <a class="p-4 text-dark" href="#">Terms of use</a>
+-        </div>
+-    </div>
+-    <!-- </div> -->
+-</div>
+-
+-
+-</body>
+-
+-</html>
+\ No newline at end of file
+Index: components/Learn & Engage/Talks.html
+===================================================================
+diff --git a/components/Learn & Engage/Talks.html b/components/Learn & Engage/Talks.html
+deleted file mode 100644
+--- a/components/Learn & Engage/Talks.html	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
++++ /dev/null	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
+@@ -1,229 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-
+-<head>
+-    <meta charset="UTF-8">
+-
+-    <meta name="Talks">
+-    <title>Join our talks</title>
+-
+-    <meta name="Author"
+-          content="Aleksandra Jaworska Gareth Walsh Edward Xilong Zhang Yue Yu Pragya Vashishtha">
+-    <meta name="description"
+-          content="Hugh Lane Gallery houses the foremost public collection of contemporary art in Ireland; the gallery also has a dynamic temporary exhibitions programme often encompassing the permanent collection. " />
+-    <meta name="keywords"
+-          content="Bookshop,Art Gallery Dublin, Irish Exhibitions, Modern Art Galleries, Contemporary Exhibitions, Things to do in Dublin, tourist attraction Ireland, Places To Visit Ireland, Places to Visit Dublin" />
+-
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+-    <link rel="stylesheet" type="text/css" href="../../styles/stylesheet.css" />
+-
+-    <script src="app.js"></script>
+-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+-            crossorigin="anonymous"></script>
+-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+-            crossorigin="anonymous"></script>
+-
+-    <!-- Add icon library -->
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+-
+-
+-
+-</head>
+-
+-<body>
+-<div class="page-header">
+-    <h1 class="titleHeader float-left ml-4 mt-2 text-info"><a href = "../../index.html">HUGH LANE GALLERY</a></h1>
+-    <h1 class="titleHeader float-right mr-4 mt-2 text-info"><a href = "../../index.html">DÁNLANN AN HUGH LANE</a></h1>
+-
+-    <h2 class="fee"><a>Admission free </a></h2>
+-
+-    <!-- Navigation menu -->
+-    <nav id="navbar_top" class="navbar navbar-expand-sm bg-white">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="learn-engage.html">Overview</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="courses.html">Courses</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Programmes.html">Programmes</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Talks.html">Talks</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Kids%20Club.html">Kids Club</a>
+-                </li>
+-            </ul>
+-            <form class="form-inline">
+-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+-                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+-            </form>
+-        </div>
+-    </nav>
+-
+-</div>
+-
+-
+-<!-- Main content -->
+-
+-<!-- First card -->
+-
+-<div class="card border-0" style="max-width:100%">
+-    <div class="row ">
+-        <div class="col-md-7">
+-            <img src="../../photos/talks.png" class="card-img rounded-0" alt="Images of Talks " >
+-        </div>
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title"><b>Seminars and Symposia</b></h5>
+-                <p class="card-text">We hope you continue to enjoy some of our  art education resources for students here
+-                    as well as our  series of  newly created talks and imaginative art activities that can be viewed on
+-                    the Gallery's <a href = "https://www.youtube.com/channel/UC-ul2v2RVcfveDkIAcvwWtQ"><strong>youtube channel</strong></a> and suggestions for reading, listening, watching and more as part of our Artists
+-                    Takeover series<br>
+-<!--                    <small class="text-muted"></small></p>-->
+-
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-<!-- Second card -->
+-
+-<div class="card border-0" style="max-width:100%">
+-    <div class="row">
+-        <div class="col-md-5 ">
+-            <div class="card-body ">
+-                <h5 class="card-title "><b>The Eve of St Agnes by Harry Clarke</b></h5>
+-                <p class="card-text">The Eve of St Agnes is a stained glass masterpiece designed and made by the great Irish artist Harry Clarke.
+-                    <a href = "https://www.hughlane.ie/phocadownload/harry%20clarke%20art%20activities.pdf"><strong>Here</strong></a> you can download art activities inspired by this beautiful window.</p>
+-                <p class="card-text"><small class="text-muted">Watch an online talk on Harry Clarke's The Eve of St Agnes <a href = "https://www.youtube.com/watch?v=6wvySbGj46c"><strong>here</strong></a></small></p>
+-            </div>
+-        </div>
+-        <div class="col-md-7">
+-            <img src="../../photos/st.png" class="card-img rounded-0" alt="Image of St Agnes">
+-        </div>
+-    </div>
+-</div>
+-
+-<!-- Third card -->
+-<div class="card border-0" style="max-width:100%">
+-    <div class="row ">
+-        <div class="col-md-7">
+-            <img src="../../photos/audiodis.png" class="card-img rounded-0" alt="Image of Art History courses" >
+-        </div>
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title"><b>Audio Description for visually impaired</b></h5>
+-                <p class="card-text">Audio description for people with a visual impairment.<br>
+-                    Live online audio description of artworks also take place regularly
+-                    and to find out details of upcoming online audio description talks<br>
+-                    <small class="text-muted"> please
+-                        see: <a href = "see: http://www.hughlane.ie/lectures/forthcoming-lectures"><strong>here</strong></a></small></p>
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-<div class="card border-0" style="max-width: 100% ">
+-    <div class="row">
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title">Contact</h5>
+-                <p class="card-text"><small class="text-muted">Jessica O'Donnell<br>
+-                    e: jodonnell.hughlane@dublincity.ie<br>
+-                    t: +353 1 222 5558<br>
+-                </small></p>
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-
+-<!-- Footer -->
+-
+-<div id="footer" class="bg-info">
+-
+-    <!-- Navigation menu -->
+-    <nav class="navbar navbar-expand-sm ml-4 mr-5 bg-info">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item dropdown">
+-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+-                        About
+-                    </a>
+-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+-                        <a class="dropdown-item" href="#">Hugh Lane</a>
+-                        <a class="dropdown-item" href="#">Charlemont House</a>
+-                        <a class="dropdown-item" href="#">The Gallery</a>
+-                        <div class="dropdown-divider"></div>
+-                        <a class="dropdown-item" href="#">Related Documents</a>
+-                    </div>
+-                </li>
+-                <li class="nav-item px-4" >
+-                    <a class="nav-link text-white" href="#">Support</a>
+-                </li>
+-                <li class="nav-item ">
+-                    <a class="nav-link text-white" href="#">Contact</a>
+-                </li>
+-                <li class="nav-item px-4">
+-                    <a class="nav-link text-white" href="#">Career</a>
+-                </li>
+-            </ul>
+-            <button type="button" class="btn btn-primary float-right" onclick="topFunction()">Top</button>
+-        </div>
+-    </nav>
+-    <!-- <div class="jumbotron"> -->
+-    <div class="ml-5 mr-5">
+-        <div class="clearfix">
+-            <div class="form-group float-left">
+-                <h2 class="footer-text text-white"> <label for="mailList">
+-                    <br>Join our mailing list:</label> </h2>
+-                <div class="input-group-append">
+-                    <input type="text" class="form-control w-100" id="mailList">
+-                    <button type="button" class="btn btn-primary ml-2">Join</button>
+-                </div>
+-                <div>
+-                    <br>  <br>
+-                    <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-youtube"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-linkedin"></a>&nbsp;&nbsp;
+-                </div>
+-
+-            </div>
+-            <div class="float-right">
+-                <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9
+-                    <br> <small>Closed today </small>
+-                </h2>
+-                <h2 class= "mt-4"><br>High Contrast Mode</h2>
+-            </div>
+-        </div>
+-
+-        <div class="d-flex flex-row justify-content-center float-none">
+-            <a class="p-4 text-dark" href="#">Privacy Policy</a>
+-            <a class="p-4 text-dark" href="#">Terms of use</a>
+-        </div>
+-    </div>
+-</div>
+-</div>
+-
+-</body>
+-</html>
+\ No newline at end of file
+Index: components/Learn & Engage/Kids Club.html
+===================================================================
+diff --git a/components/Learn & Engage/Kids Club.html b/components/Learn & Engage/Kids Club.html
+deleted file mode 100644
+--- a/components/Learn & Engage/Kids Club.html	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
++++ /dev/null	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
+@@ -1,285 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-
+-<head>
+-    <meta charset="UTF-8">
+-
+-    <meta name="Kids Club">
+-    <title>Hugh Lane Gallery Kids Club</title>
+-
+-    <meta name="Author"
+-          content="Aleksandra Jaworska Gareth Walsh Edward Xilong Zhang Yue Yu Pragya Vashishtha I am so happy says Edward">
+-    <meta name="description"
+-          content="Hugh Lane Gallery houses the foremost public collection of contemporary art in Ireland; the gallery also has a dynamic temporary exhibitions programme often encompassing the permanent collection. " />
+-    <meta name="keywords"
+-          content="Art Gallery Dublin, Irish Exhibitions, Modern Art Galleries, Contemporary Exhibitions, Things to do in Dublin, tourist attraction Ireland, Places To Visit Ireland, Places to Visit Dublin" />
+-
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+-    <link rel="stylesheet" type="text/css" href="../../styles/stylesheet.css" />
+-    <!-- Add icon library -->
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+-
+-    <script src="app.js"></script>
+-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+-            crossorigin="anonymous"></script>
+-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+-            crossorigin="anonymous"></script>
+-
+-</head>
+-
+-<body>
+-<div class="page-header">
+-    <h1 class="titleHeader float-left ml-4 mt-2 text-info"><a href = "../../index.html">HUGH LANE GALLERY</a></h1>
+-    <h1 class="titleHeader float-right mr-4 mt-2 text-info"><a href = "../../index.html">DÁNLANN AN HUGH LANE</a></h1>
+-
+-    <h2 class="fee"><a>Admission free </a></h2>
+-
+-    <!-- Navigation menu -->
+-    <nav id="navbar_top" class="navbar navbar-expand-sm bg-white">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="learn-engage.html">Overview</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="courses.html">Courses</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Programmes.html">Programmes</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="#">Talks</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="#">Kids Club</a>
+-                </li>
+-            </ul>
+-            <form class="form-inline">
+-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+-                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+-            </form>
+-        </div>
+-    </nav>
+-
+-</div>
+-
+-<div class="mt-2">
+-    <!-- Carousal 1  -->
+-    <div id="main-content">
+-        <!-- Main Content -->
+-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+-            <ol class="carousel-indicators">
+-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+-            </ol>
+-
+-            <!-- //TODO: 1. Add background to text-caption;
+-            // 2. Add hover opacity change to image -->
+-            <div class="carousel-inner">
+-                <div class="carousel-item active">
+-                    <img class="d-block w-100 h-25 fit-image img-fluid" src="../../photos/kids_3.png" alt="First slide">
+-                    <div class="carousel-caption d-none d-md-block bg-dark">
+-                        <h5 >Hughlane Kids Club</h5>
+-                        <p >Join us for innovative and enjoyable activities</p>
+-                    </div>
+-                </div>
+-                <div class="carousel-item">
+-                    <img class="d-block w-100 h-25 fit-image img-fluid" src="../../photos/kids_4.png" alt="Second slide">
+-                    <div class="carousel-caption d-none d-md-block bg-dark">
+-                        <h5 >Hughlane Kids Club </h5>
+-                        <p > Join us for innovative and enjoyable activities</p>
+-                    </div>
+-                </div>
+-                <div class="carousel-item">
+-                    <img class="d-block w-100 h-25 fit-image img-fluid" src="../../photos/kids_5.png" alt="Third slide">
+-                    <div class="carousel-caption d-none d-md-block bg-dark">
+-                        <h5 >Hughlane Kids Club</h5>
+-                        <p >Join us for innovative and enjoyable activities</p>
+-                    </div>
+-                </div>
+-            </div>
+-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+-                <span class="sr-only">Previous</span>
+-            </a>
+-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+-                <span class="sr-only">Next</span>
+-            </a>
+-        </div>
+-
+-    </div>
+-
+-    <!-- Cards -->
+-
+-    <div class="card border-0" style="max-width:100%">
+-        <div class="row ">
+-            <div class="col-md-7">
+-                <img src="../../photos/children.png" class="card-img rounded-0" alt="Image of Children Workshop" >
+-            </div>
+-            <div class="col-md-5">
+-                <div class="card-body">
+-                    <h5 class="card-title">Children’s Area and Learning Resource Centre</h5>
+-                    <p class="card-text">Children, teachers and families can participate in innovative and enjoyable
+-                        learning opportunities that explore the collection and temporary exhibitions in the Gallery’s children’s area
+-                        and Learning Resource Centre.</p>
+-                    <p class="card-text"><small class="text-muted">For details of upcoming art workshops for children please see here<br>
+-                        Please note:
+-                        Parents must stay with their children for the 3-6 year old workshops.</small></p>
+-                </div>
+-            </div>
+-        </div>
+-    </div>
+-
+-
+-    <div class="card border-0" style="max-width:100%">
+-        <div class="row">
+-            <div class="col-md-5 ">
+-                <div class="card-body ">
+-                    <h5 class="card-title ">Who Was Francis Bacon?</h5>
+-                    <p class="card-text">Francis Bacon Studio for Kids</p>
+-                    <p class="card-text"><small>More about Francis Bacon-- <a href = "https://www.hughlane.ie/phocadownload/kids%20guide%20to%20francis%20bacons%20studio.pdf"><strong>Kids Guide to Francis Bacon Studio</strong></a></small></p>
+-                </div>
+-            </div>
+-            <div class="col-md-7">
+-                <img src="../../photos/bacon_1.png" class="card-img rounded-0" alt="Image of Francis Bacon Studio">
+-            </div>
+-        </div>
+-    </div>
+-
+-    <div class="card border-0" style="max-width: 100% ">
+-        <div class="row">
+-            <div class="col-md-7 ">
+-                <img src="../../photos/cubist_1.png" class="card-img rounded-0" alt="Image of Cubist Painting">
+-            </div>
+-            <div class="col-md-5">
+-                <div class="card-body">
+-                    <h5 class="card-title">Create Your Own Cubist Still Life</h5>
+-                    <p class="card-text"><a href = "https://www.hughlane.ie/create-your-own-cubist-still-life/make-a-cubist-collage"><strong>Make a Cubist Collage</strong></a></p>
+-                </div>
+-            </div>
+-        </div>
+-    </div>
+-
+-    <div class="card border-0" style="max-width:100%">
+-        <div class="row">
+-            <div class="col-md-5 ">
+-                <div class="card-body ">
+-                    <h5 class="card-title ">Teen Culture Club</h5>
+-                    <p class="card-text"><a href = "https://www.hughlane.ie/phocadownload/beth%20ohalloran%20wabi-sabi%20activity-compressed.pdf"><Strong>Wabi-sabi and Beauty in Everyday Life</Strong></a><br>
+-                        <small class="text-muted">In <a href = "https://www.youtube.com/watch?v=uON0ZeZI_QA"><strong>this illustrated talk</strong></a> artist Beth O'Halloran explores
+-                            the idea of wabi-sabi<br> and beauty in everyday life, comparing concepts of what is considered beautiful.</small></p>
+-                    <p class="card-text">This Lunar Life (Parts 1&2)<br>
+-                        <small class="text-muted">In This Lunar Life (Parts <a href = "https://www.youtube.com/watch?v=UcK0-Qp5k3A&list=PLUil_e1LlOsraClWXapej3_GPMCure8sf&index=3"><strong>1</strong></a> and
+-                            <a href = "https://www.youtube.com/watch?v=ZJJqRnxBJco&list=PLUil_e1LlOsraClWXapej3_GPMCure8sf&index=4"><strong>2</strong></a>) artist Sarah Edmondson delivers an engaging
+-                            and illustrated talk discussing how the moon and human interaction with the lunar landscape have been critically explored by a variety of artists
+-                            in their work.</small></p>
+-                </div>
+-            </div>
+-            <div class="col-md-7">
+-                <img src="../../photos/teen_1.png" class="card-img rounded-0" alt="Image of Teen Culture Club">
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-<div class="card border-0" style="max-width: 100% ">
+-    <div class="row">
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title">Contact</h5>
+-                <p class="card-text"><small class="text-muted">Jessica O'Donnell<br>
+-                    e: jodonnell.hughlane@dublincity.ie<br>
+-                    t: +353 1 222 5558<br>
+-                </small></p>
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-<div id="footer" class="bg-info">
+-
+-    <!-- Navigation menu -->
+-    <nav class="navbar navbar-expand-sm ml-4 mr-5 bg-info">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item dropdown">
+-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+-                        About
+-                    </a>
+-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+-                        <a class="dropdown-item" href="components/about/hugh-lane.html">Hugh Lane</a>
+-                        <a class="dropdown-item" href="components/about/charlemont-house.html">Charlemont House</a>
+-                        <a class="dropdown-item" href="components/about/the-gallery.html">The Gallery</a>
+-                        <div class="dropdown-divider"></div>
+-                        <a class="dropdown-item" href="#">Related Documents</a>
+-                    </div>
+-                </li>
+-                <li class="nav-item px-4" >
+-                    <a class="nav-link text-white" href="#">Support</a>
+-                </li>
+-                <li class="nav-item ">
+-                    <a class="nav-link text-white" href="#">Contact</a>
+-                </li>
+-                <li class="nav-item px-4">
+-                    <a class="nav-link text-white" href="#">Career</a>
+-                </li>
+-            </ul>
+-            <button type="button" class="btn btn-primary float-right" onclick="topFunction()">Top</button>
+-        </div>
+-    </nav>
+-    <!-- <div class="jumbotron"> -->
+-    <div class="ml-5 mr-5">
+-        <div class="clearfix">
+-            <div class="form-group float-left">
+-                <h2 class="footer-text text-white"> <label for="mailList">
+-                    <br>Join our mailing list:</label> </h2>
+-                <div class="input-group-append">
+-                    <input type="text" class="form-control w-100" id="mailList">
+-                    <button type="button" class="btn btn-primary ml-2">Join</button>
+-                </div>
+-                <div>
+-                    <br>  <br>
+-                    <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-youtube"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-linkedin"></a>&nbsp;&nbsp;
+-                </div>
+-
+-            </div>
+-            <div class="float-right">
+-                <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9
+-                    <br> <small>Closed today </small>
+-                </h2>
+-                <h2 class= "mt-4"><br>High Contrast Mode</h2>
+-            </div>
+-        </div>
+-
+-        <div class="d-flex flex-row justify-content-center float-none">
+-            <a class="p-4 text-dark" href="#">Privacy Policy</a>
+-            <a class="p-4 text-dark" href="#">Terms of use</a>
+-        </div>
+-    </div>
+-    <!-- </div> -->
+-</div>
+-
+-
+-</body>
+-
+-</html>
+\ No newline at end of file
+Index: components/Learn & Engage/Programmes.html
+===================================================================
+diff --git a/components/Learn & Engage/Programmes.html b/components/Learn & Engage/Programmes.html
+deleted file mode 100644
+--- a/components/Learn & Engage/Programmes.html	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
++++ /dev/null	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
+@@ -1,210 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-
+-<head>
+-    <meta charset="UTF-8">
+-
+-    <meta name="courses">
+-    <title>Join our courses</title>
+-
+-    <meta name="Author"
+-          content="Aleksandra Jaworska Gareth Walsh Edward Xilong Zhang Yue Yu Pragya Vashishtha">
+-    <meta name="description"
+-          content="Hugh Lane Gallery houses the foremost public collection of contemporary art in Ireland; the gallery also has a dynamic temporary exhibitions programme often encompassing the permanent collection. " />
+-    <meta name="keywords"
+-          content="Bookshop,Art Gallery Dublin, Irish Exhibitions, Modern Art Galleries, Contemporary Exhibitions, Things to do in Dublin, tourist attraction Ireland, Places To Visit Ireland, Places to Visit Dublin" />
+-
+-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+-    <link rel="stylesheet" type="text/css" href="../../styles/stylesheet.css" />
+-
+-    <script src="app.js"></script>
+-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+-            crossorigin="anonymous"></script>
+-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+-            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+-            crossorigin="anonymous"></script>
+-
+-    <!-- Add icon library -->
+-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+-
+-
+-
+-</head>
+-
+-<body>
+-<div class="page-header">
+-    <h1 class="titleHeader float-left ml-4 mt-2 text-info"><a href = "../../index.html">HUGH LANE GALLERY</a></h1>
+-    <h1 class="titleHeader float-right mr-4 mt-2 text-info"><a href = "../../index.html">DÁNLANN AN HUGH LANE</a></h1>
+-
+-    <h2 class="fee"><a>Admission free </a></h2>
+-
+-    <!-- Navigation menu -->
+-    <nav id="navbar_top" class="navbar navbar-expand-sm bg-white">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="learn-engage.html">Overview</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="courses.html">Courses</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Programmes.html">Programmes</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Talks.html">Talks</a>
+-                </li>
+-                <li class="nav-item  px-4">
+-                    <a class="nav-link  text-dark" href="Kids Club.html">Kids Club</a>
+-                </li>
+-            </ul>
+-            <form class="form-inline">
+-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+-                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+-            </form>
+-        </div>
+-    </nav>
+-
+-</div>
+-
+-
+-<!-- Main content -->
+-
+-<!-- First card -->
+-
+-<div class="card border-0" style="max-width:100%">
+-    <div class="row ">
+-        <div class="col-md-7">
+-            <img src="../../photos/2021.png" class="card-img rounded-0" alt="Images of Transition Programme " >
+-        </div>
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title"><b>Online Transition Year Programme 2021</b></h5>
+-                <p class="card-text">Online: Art History Lectures series: Avenues into Modern and Contemporary Art<br>
+-                    <small class="text-muted">Tuesday 26 January – Thursday 28 January 2021, 10am-12.30pm and Tuesday 2 February – Thursday 4 February 2021, 10am-12.30pm<br>
+-                        APPLICATIONS ARE NOW CLOSED.</small></p>
+-
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-<!-- Second card -->
+-
+-<div class="card border-0" style="max-width:100%">
+-    <div class="row">
+-        <div class="col-md-5 ">
+-            <div class="card-body ">
+-                <h5 class="card-title "><b>Collaborative Outreach</b></h5>
+-                <p class="card-text">Recent Hugh Lane visual art community projects include collaborations with Dublin Port Perspectives,
+-                    Dublin Culture Company's Neighbourhood projects, Create Collaborative Arts Partnership (CAPP) programme,
+-                    Dublin City Council North East Inner City project office, Creative Ireland, Foundations Project, Sphere 17 and others.</p>
+-                <p class="card-text"><small class="text-muted">Through our city-wide project Zoom@HughLaneGallery we aim to incrementally work with every primary school in the Dublin City Council area.<br>
+-                    For further details see: http://www.hughlane.ie/outreach-projects/past and  http://www.hughlane.ie/outreach-projects/current</small></p>
+-            </div>
+-        </div>
+-        <div class="col-md-7">
+-            <img src="../../photos/outreach.png" class="card-img rounded-0" alt="Images of collaborative outreach">
+-        </div>
+-    </div>
+-</div>
+-
+-<div class="card border-0" style="max-width: 100% ">
+-    <div class="row">
+-        <div class="col-md-5">
+-            <div class="card-body">
+-                <h5 class="card-title">Contact</h5>
+-                <p class="card-text"><small class="text-muted">Jessica O'Donnell<br>
+-                    e: jodonnell.hughlane@dublincity.ie<br>
+-                    t: +353 1 222 5558<br>
+-                </small></p>
+-            </div>
+-        </div>
+-    </div>
+-</div>
+-
+-
+-<!-- Footer -->
+-
+-<div id="footer" class="bg-info">
+-
+-    <!-- Navigation menu -->
+-    <nav class="navbar navbar-expand-sm ml-4 mr-5 bg-info">
+-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+-            <span class="navbar-toggler-icon"></span>
+-        </button>
+-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+-            <!-- Links -->
+-            <ul class="navbar-nav mr-auto">
+-                <li class="nav-item dropdown">
+-                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button"
+-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+-                        About
+-                    </a>
+-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+-                        <a class="dropdown-item" href="#">Hugh Lane</a>
+-                        <a class="dropdown-item" href="#">Charlemont House</a>
+-                        <a class="dropdown-item" href="#">The Gallery</a>
+-                        <div class="dropdown-divider"></div>
+-                        <a class="dropdown-item" href="#">Related Documents</a>
+-                    </div>
+-                </li>
+-                <li class="nav-item px-4" >
+-                    <a class="nav-link text-white" href="#">Support</a>
+-                </li>
+-                <li class="nav-item ">
+-                    <a class="nav-link text-white" href="#">Contact</a>
+-                </li>
+-                <li class="nav-item px-4">
+-                    <a class="nav-link text-white" href="#">Career</a>
+-                </li>
+-            </ul>
+-            <button type="button" class="btn btn-primary float-right" onclick="topFunction()">Top</button>
+-        </div>
+-    </nav>
+-    <!-- <div class="jumbotron"> -->
+-    <div class="ml-5 mr-5">
+-        <div class="clearfix">
+-            <div class="form-group float-left">
+-                <h2 class="footer-text text-white"> <label for="mailList">
+-                    <br>Join our mailing list:</label> </h2>
+-                <div class="input-group-append">
+-                    <input type="text" class="form-control w-100" id="mailList">
+-                    <button type="button" class="btn btn-primary ml-2">Join</button>
+-                </div>
+-                <div>
+-                    <br>  <br>
+-                    <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-youtube"></a>&nbsp;&nbsp;
+-                    <a href="#" class="fa fa-linkedin"></a>&nbsp;&nbsp;
+-                </div>
+-
+-            </div>
+-            <div class="float-right">
+-                <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9
+-                    <br> <small>Closed today </small>
+-                </h2>
+-                <h2 class= "mt-4"><br>High Contrast Mode</h2>
+-            </div>
+-        </div>
+-
+-        <div class="d-flex flex-row justify-content-center float-none">
+-            <a class="p-4 text-dark" href="#">Privacy Policy</a>
+-            <a class="p-4 text-dark" href="#">Terms of use</a>
+-        </div>
+-    </div>
+-</div>
+-</div>
+-
+-</body>
+-</html>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"1e980af3-b8b7-49a3-9e4b-2537042582d7\" name=\"Default Changelist\" comment=\"Aleksa/update/art/sub/subpages\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/components/art/cecil.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/components/art/cecil.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"HighlightingSettingsPerFile\">\n    <setting file=\"file://$PROJECT_DIR$/index.html\" root0=\"SKIP_INSPECTION\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1pwBDD4BPW6KvvDhrdgdv50uBoZ\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.lookFeel\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\garet\\git\\HughLane\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"1e980af3-b8b7-49a3-9e4b-2537042582d7\" name=\"Default Changelist\" comment=\"\" />\n      <created>1616084151431</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1616084151431</updated>\n      <workItem from=\"1616084153561\" duration=\"3960000\" />\n      <workItem from=\"1617110943594\" duration=\"7106000\" />\n      <workItem from=\"1617121516899\" duration=\"1000\" />\n      <workItem from=\"1617121682070\" duration=\"865000\" />\n      <workItem from=\"1617135509199\" duration=\"2922000\" />\n      <workItem from=\"1617192979280\" duration=\"3832000\" />\n      <workItem from=\"1617211951408\" duration=\"1136000\" />\n      <workItem from=\"1617214357066\" duration=\"10719000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"updated homepage for the hover image effect and complete the draft for visit desktop\">\n      <created>1617051046894</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617051046894</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"updated homepage for the hover image effect and complete the draft for visit desktop\">\n      <created>1617051893032</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617051893032</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"changed the footer\">\n      <created>1617117941097</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617117941097</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"changed the footer\">\n      <created>1617118113251</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617118113251</updated>\n    </task>\n    <task id=\"LOCAL-00005\" summary=\"a final change on visit.html\">\n      <created>1617121069840</created>\n      <option name=\"number\" value=\"00005\" />\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617121069840</updated>\n    </task>\n    <task id=\"LOCAL-00006\" summary=\"a final change on visit.html\">\n      <created>1617121084203</created>\n      <option name=\"number\" value=\"00006\" />\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617121084203</updated>\n    </task>\n    <task id=\"LOCAL-00007\" summary=\"a final change on visit.html\">\n      <created>1617121449235</created>\n      <option name=\"number\" value=\"00007\" />\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617121449235</updated>\n    </task>\n    <task id=\"LOCAL-00008\" summary=\"a final change on visit.html put it inside the components\">\n      <created>1617122597141</created>\n      <option name=\"number\" value=\"00008\" />\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617122597142</updated>\n    </task>\n    <task id=\"LOCAL-00009\" summary=\"a final change on visit.html\">\n      <created>1617143738159</created>\n      <option name=\"number\" value=\"00009\" />\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617143738159</updated>\n    </task>\n    <task id=\"LOCAL-00010\" summary=\"EDWARD a final change on visit.html\">\n      <created>1617143747973</created>\n      <option name=\"number\" value=\"00010\" />\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617143747973</updated>\n    </task>\n    <task id=\"LOCAL-00011\" summary=\"Aleksa/update/collections\">\n      <created>1617198472864</created>\n      <option name=\"number\" value=\"00011\" />\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617198472864</updated>\n    </task>\n    <task id=\"LOCAL-00012\" summary=\"Aleksa/update/collections\">\n      <created>1617201454898</created>\n      <option name=\"number\" value=\"00012\" />\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617201454898</updated>\n    </task>\n    <task id=\"LOCAL-00013\" summary=\"Aleksa/update/collections\">\n      <created>1617207683353</created>\n      <option name=\"number\" value=\"00013\" />\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617207683353</updated>\n    </task>\n    <task id=\"LOCAL-00014\" summary=\"Aleksa/update/collections\">\n      <created>1617209123572</created>\n      <option name=\"number\" value=\"00014\" />\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617209123572</updated>\n    </task>\n    <task id=\"LOCAL-00015\" summary=\"Aleksa/update/collections\">\n      <created>1617214392378</created>\n      <option name=\"number\" value=\"00015\" />\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617214392378</updated>\n    </task>\n    <task id=\"LOCAL-00016\" summary=\"Aleksa/update/collections\">\n      <created>1617214707774</created>\n      <option name=\"number\" value=\"00016\" />\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617214707774</updated>\n    </task>\n    <task id=\"LOCAL-00017\" summary=\"Aleksa/update/collections\">\n      <created>1617222716815</created>\n      <option name=\"number\" value=\"00017\" />\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617222716815</updated>\n    </task>\n    <task id=\"LOCAL-00018\" summary=\"Aleksa/update/art\">\n      <created>1617225687626</created>\n      <option name=\"number\" value=\"00018\" />\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617225687626</updated>\n    </task>\n    <task id=\"LOCAL-00019\" summary=\"Aleksa/update/art\">\n      <created>1617229383559</created>\n      <option name=\"number\" value=\"00019\" />\n      <option name=\"presentableId\" value=\"LOCAL-00019\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617229383559</updated>\n    </task>\n    <task id=\"LOCAL-00020\" summary=\"Aleksa/update/art\">\n      <created>1617280961422</created>\n      <option name=\"number\" value=\"00020\" />\n      <option name=\"presentableId\" value=\"LOCAL-00020\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617280961422</updated>\n    </task>\n    <task id=\"LOCAL-00021\" summary=\"Aleksa/update/art\">\n      <created>1617280969479</created>\n      <option name=\"number\" value=\"00021\" />\n      <option name=\"presentableId\" value=\"LOCAL-00021\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617280969479</updated>\n    </task>\n    <task id=\"LOCAL-00022\" summary=\"Aleksa/update/art\">\n      <created>1617281338635</created>\n      <option name=\"number\" value=\"00022\" />\n      <option name=\"presentableId\" value=\"LOCAL-00022\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617281338635</updated>\n    </task>\n    <task id=\"LOCAL-00023\" summary=\"Aleksa/update/art\">\n      <created>1617306814753</created>\n      <option name=\"number\" value=\"00023\" />\n      <option name=\"presentableId\" value=\"LOCAL-00023\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617306814753</updated>\n    </task>\n    <task id=\"LOCAL-00024\" summary=\"Aleksa/update/art\">\n      <created>1617314510106</created>\n      <option name=\"number\" value=\"00024\" />\n      <option name=\"presentableId\" value=\"LOCAL-00024\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617314510106</updated>\n    </task>\n    <task id=\"LOCAL-00025\" summary=\"Aleksa/update/art/sub/subpages\">\n      <created>1617316114379</created>\n      <option name=\"number\" value=\"00025\" />\n      <option name=\"presentableId\" value=\"LOCAL-00025\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1617316114379</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"26\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"I added something in the meta to test\" />\n    <MESSAGE value=\"updated homepage for the hover image effect and complete the draft for visit desktop\" />\n    <MESSAGE value=\"changed the footer\" />\n    <MESSAGE value=\"a final change on visit.html put it inside the components\" />\n    <MESSAGE value=\"a final change on visit.html\" />\n    <MESSAGE value=\"EDWARD a final change on visit.html\" />\n    <MESSAGE value=\"Aleksa/update/collections\" />\n    <MESSAGE value=\"Aleksa/update/art\" />\n    <MESSAGE value=\"Aleksa/update/art/sub/subpages\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Aleksa/update/art/sub/subpages\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"374\" y=\"72\" key=\"SettingsEditor\" timestamp=\"1617198900671\">\n      <screen x=\"0\" y=\"25\" width=\"1440\" height=\"824\" />\n    </state>\n    <state x=\"374\" y=\"72\" key=\"SettingsEditor/0.25.1440.824@0.25.1440.824\" timestamp=\"1617198900671\" />\n    <state x=\"602\" y=\"173\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1617316118413\">\n      <screen x=\"0\" y=\"25\" width=\"1440\" height=\"824\" />\n    </state>\n    <state x=\"602\" y=\"173\" key=\"Vcs.Push.Dialog.v2/0.25.1440.823@0.25.1440.823\" timestamp=\"1617306820687\" />\n    <state x=\"602\" y=\"173\" key=\"Vcs.Push.Dialog.v2/0.25.1440.824@0.25.1440.824\" timestamp=\"1617316118413\" />\n    <state x=\"602\" y=\"173\" key=\"Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825\" timestamp=\"1617281356367\" />\n    <state x=\"602\" y=\"174\" key=\"Vcs.Push.Dialog.v2/0.25.1440.826@0.25.1440.826\" timestamp=\"1617225696989\" />\n    <state x=\"625\" y=\"387\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1617316086527\">\n      <screen x=\"0\" y=\"25\" width=\"1440\" height=\"824\" />\n    </state>\n    <state x=\"625\" y=\"387\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.823@0.25.1440.823\" timestamp=\"1617306788787\" />\n    <state x=\"625\" y=\"387\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.824@0.25.1440.824\" timestamp=\"1617316086527\" />\n    <state x=\"625\" y=\"388\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.825@0.25.1440.825\" timestamp=\"1617281344909\" />\n    <state x=\"625\" y=\"388\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.826@0.25.1440.826\" timestamp=\"1617225652786\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0ae75e3d7d88e9235a77a43900c878bf6eddf470)
++++ b/.idea/workspace.xml	(date 1617358046689)
+@@ -21,7 +21,13 @@
+   <component name="ChangeListManager">
+     <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art/sub/subpages">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/components/art/cecil.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/cecil.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Kids Club.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Talks.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/components/visit.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/visit.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -279,24 +285,4 @@
+     <MESSAGE value="Aleksa/update/art/sub/subpages" />
+     <option name="LAST_COMMIT_MESSAGE" value="Aleksa/update/art/sub/subpages" />
+   </component>
+-  <component name="WindowStateProjectService">
+-    <state x="374" y="72" key="SettingsEditor" timestamp="1617198900671">
+-      <screen x="0" y="25" width="1440" height="824" />
+-    </state>
+-    <state x="374" y="72" key="SettingsEditor/0.25.1440.824@0.25.1440.824" timestamp="1617198900671" />
+-    <state x="602" y="173" key="Vcs.Push.Dialog.v2" timestamp="1617316118413">
+-      <screen x="0" y="25" width="1440" height="824" />
+-    </state>
+-    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.823@0.25.1440.823" timestamp="1617306820687" />
+-    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.824@0.25.1440.824" timestamp="1617316118413" />
+-    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1617281356367" />
+-    <state x="602" y="174" key="Vcs.Push.Dialog.v2/0.25.1440.826@0.25.1440.826" timestamp="1617225696989" />
+-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617316086527">
+-      <screen x="0" y="25" width="1440" height="824" />
+-    </state>
+-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.823@0.25.1440.823" timestamp="1617306788787" />
+-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.824@0.25.1440.824" timestamp="1617316086527" />
+-    <state x="625" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.825@0.25.1440.825" timestamp="1617281344909" />
+-    <state x="625" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.826@0.25.1440.826" timestamp="1617225652786" />
+-  </component>
+ </project>
+\ No newline at end of file

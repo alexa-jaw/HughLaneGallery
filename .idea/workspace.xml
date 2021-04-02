@@ -19,16 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art/sub/subpages">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Kids Club.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Programmes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Talks.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/courses.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/bookshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/bookshop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/visit.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/visit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="EDWARD &#10;made the nav bar responsive and collapse into a hamburger button. at the cost of deleting the h2">
+      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/Kids Club.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/learn_and_engage/kids_club.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Learn &amp; Engage/learn-engage.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/learn_and_engage/overview.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617316114379</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="EDWARD &#10;made the nav bar responsive and collapse into a hamburger button. at the cost of deleting the h2">
+      <created>1617361879414</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1617361879414</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +284,7 @@
     <MESSAGE value="Aleksa/update/collections" />
     <MESSAGE value="Aleksa/update/art" />
     <MESSAGE value="Aleksa/update/art/sub/subpages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aleksa/update/art/sub/subpages" />
+    <MESSAGE value="EDWARD &#10;made the nav bar responsive and collapse into a hamburger button. at the cost of deleting the h2" />
+    <option name="LAST_COMMIT_MESSAGE" value="EDWARD &#10;made the nav bar responsive and collapse into a hamburger button. at the cost of deleting the h2" />
   </component>
 </project>
