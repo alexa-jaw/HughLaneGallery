@@ -30,37 +30,82 @@
 
 <body>
 <div class="page-header">
-    <h1 class="titleHeader float-left ml-4 mt-2 "><a href="../index.html">HUGH LANE GALLERY</a></h1>
-    <h1 class="titleHeader float-right mr-4 mt-2 "><a href="../index.html">DÁNLANN AN HUGH LANE</a></h1>
+    <h1 class="titleHeader float-left ml-4 mt-2 "><a href="index.html">HUGH LANE GALLERY
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        DÁNLANN AN HUGH LANE</a></h1>
+    <p>&nbsp</p>
+    <p>&nbsp</p>
 
-    <h2 class="fee"><a>Bookshop</a></h2>
 
     <!-- Navigation menu -->
-    <nav class="navbar navbar-expand-sm navbar-fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav id="nav-top" class="navbar navbar-expand-md bg-white navbar-dark">
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon bg-primary"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Links -->
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item  px-4">
-                    <a class="nav-link  text-dark" href="#">Prints</a>
+                <li class="nav-item dropdown px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Art
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Collections </a>
+                        <a class="dropdown-item" href="#">Exhibitions</a>
+                        <a class="dropdown-item" href="#">Artists A-Z </a>
+                        <a class="dropdown-item" href="#">Publications A-Z</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown  px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="../components/visit.html" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Visit
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../components/visit.html#opening">Opening Hours</a>
+                        <a class="dropdown-item" href="../components/visit.html#access">Access & Facilities</a>
+                        <a class="dropdown-item" href="../components/visit.html#family">Family Tours</a>
+                        <a class="dropdown-item" href="../components/visit.html#guided">Guided Tours</a>
+                        <a class="dropdown-item" href="../components/visit.html#cafe">Café and Bookshop</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown  px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        What's on
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Collections </a>
+                        <a class="dropdown-item" href="#">Exhibitions</a>
+                        <a class="dropdown-item" href="#">Concerts </a>
+                        <a class="dropdown-item" href="#">Public Events</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown  px-4">
+                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Learn & Engage
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="learn_and_engage/overview.html">Overview </a>
+                        <a class="dropdown-item" href="learn_and_engage/courses.html">Courses </a>
+                        <a class="dropdown-item" href="learn_and_engage/programmes.html">Programmes</a>
+                        <a class="dropdown-item" href="learn_and_engage/talks.html">Talks </a>
+                        <a class="dropdown-item" href="learn_and_engage/kids_club.html">Kids Club</a>
+                    </div>
                 </li>
                 <li class="nav-item  px-4">
-                    <a class="nav-link  text-dark" href="#">Editions</a>
-                </li>
-                <li class="nav-item  px-4">
-                    <a class="nav-link  text-dark" href="#">Books</a>
-                </li>
-                <li class="nav-item  px-4">
-                    <a class="nav-link  text-dark" href="#">Fashion</a>
-                </li>
-                <li class="nav-item  px-4">
-                    <a class="nav-link  text-dark" href="#">Gifts</a>
-                </li>
-                <li class="nav-item  px-4">
-                    <a class="nav-link  text-dark" href="#">Kids</a>
+                    <a class="nav-link  text-dark" href="../components/bookshop.html">Shop</a>
                 </li>
             </ul>
             <form class="form-inline">
@@ -69,9 +114,7 @@
             </form>
         </div>
     </nav>
-
 </div>
-
 <div class="mt-2">
     <div id="main-content">
         <!-- Main Content -->
