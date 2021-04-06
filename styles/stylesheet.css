@@ -349,3 +349,7 @@ p{
     content: "";
     background-color: rgba(0,0,0,0);
 }
+
+.message{color:#FF0000;
+    font-size: small;
+    font-weight: bold;  }

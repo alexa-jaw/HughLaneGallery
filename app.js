@@ -27,3 +27,30 @@ document.addEventListener("DOMContentLoaded", function(){
       } 
   });
 }); 
+
+
+//validation for contact enquiry page: Email required:
+function validateEmail() {
+  var x = document.getElementById('email').value;
+  console.log("validation, x=", x);
+  if (x == null || x == "") {
+    document.getElementById('errorMessageEmail').style.display = "block";
+    document.getElementById('errorMessageEmail').innerHTML = '<i class="fa fa-times" aria-hidden="true"></i>'+"Email must not be blank";
+  } else {
+    document.getElementById('errorMessageEmail').style.display = "none";
+  }
+}
+
+function validateMessage() {
+  var x = document.getElementById('emailMessage').value;
+  console.log("validation, x=", x);
+  if (x == null || x == "") {
+    document.getElementById('errorMessageTxt').style.display = "block";
+    document.getElementById('errorMessageTxt').innerHTML = '<i class="fa fa-times" aria-hidden="true"></i>'+"Message must not be blank";
+  } else {
+    document.getElementById('errorMessageTxt').style.display = "none";
+  }
+}
+
+
+
