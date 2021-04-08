@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="EDWARD&#10;header and footer &#10;changed bg, and added links, delete the margin &#10;everyone copy the footer and header">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/art/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/collections.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/visit.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/visit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +73,7 @@
       <workItem from="1617192979280" duration="3832000" />
       <workItem from="1617211951408" duration="1136000" />
       <workItem from="1617214357066" duration="10719000" />
-      <workItem from="1617916807677" duration="1073000" />
-    </task>
-    <task id="LOCAL-00006" summary="a final change on visit.html">
-      <created>1617121084203</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1617121084203</updated>
+      <workItem from="1617916807677" duration="1420000" />
     </task>
     <task id="LOCAL-00007" summary="a final change on visit.html">
       <created>1617121449235</created>
@@ -419,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617917439327</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="EDWARD&#10;header and footer &#10;changed bg, and added links, delete the margin &#10;everyone copy the footer and header">
+      <created>1617918218702</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1617918218702</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
