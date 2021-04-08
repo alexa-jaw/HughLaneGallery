@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Collections">
     <title>Collections | Hugh Lane Gallery</title>
 
@@ -18,7 +19,7 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="../../styles/stylesheet.css" />
 
-    <script src="app.js"></script>
+    <script src="../../app.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
             crossorigin="anonymous"></script>
@@ -36,7 +37,7 @@
 <body>
 
 
-<div class="page-header container-fluid">
+<div class="page-header container-fluid bg-light">
     <div id="hugh-lane-headings" class="clearfix">
         <h1 class="titleHeader float-left ml-4 mr-4 mt-2"><a href="../../index.html">HUGH LANE GALLERY</a></h1>
         <h1 id="gaelic-heading" class="titleHeader float-right ml-4 mr-4 mt-2"><a href="../../index.html">DÁNLANN AN HUGH LANE</a></h1>
@@ -45,7 +46,7 @@
         <h2 class="float-right mr-4 ml-4">Admission free</h2>
     </div>
     <!-- Navigation menu -->
-    <nav id="nav-top" class="navbar navbar-expand-lg bg-white navbar-light">
+    <nav id="nav-top" class="navbar navbar-expand-lg bg-light navbar-light">
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -122,11 +123,12 @@
 
 <!-- First card -->
 
-<div class="card border-0" style="max-width:100%">
+<div class="card">
     <div class="row ">
         <div class="col-md-7">
-            <img src="../../photos/figures.png" class="card-img rounded-0" alt="Figures on the glass window" >
-            <a href="harry.html" class="stretched-link"></a>
+            <a href="harry.html">
+            <img src="../../photos/figures.png" class="card-img rounded-0 filter" alt="Figures on the glass window" >
+            </a>
         </div>
         <div class="col-md-5">
             <div class="card-body">
@@ -142,31 +144,32 @@
 
 <!-- Second card -->
 
-<div class="card border-0" style="max-width:100%">
+<div class="card">
     <div class="row ">
-        <div class="col-md-7">
-            <img src="../../photos/soldier.png" class="card-img rounded-0" alt="Drawing of a soldier" >
-            <a href="efforts.html" class="stretched-link"></a>
-        </div>
         <div class="col-md-5">
             <div class="card-body">
                 <h5 class="card-title"><b>Efforts and Ideals: Prints of the First World War</b></h5>
-                <p class="card-text">This fully illustrated catalogue includes an introductory essay
-                    .</p>by Margarita Cappock and catalogue texts by Margarita Cappock, Jessica O'Donnell,
-                Geoffrey Prendergast and Ruth Keating.
+                <p class="card-text">This fully illustrated catalogue includes an introductory essay by Margarita Cappock and catalogue texts by Margarita Cappock, Jessica O'Donnell,
+                    Geoffrey Prendergast and Ruth Keating.</p>
                 <a href="efforts.html" class="stretched-link"></a>
             </div>
+        </div>
+        <div class="col-md-7">
+            <a href="efforts.html">
+                <img src="../../photos/soldier.png" class="card-img rounded-0 filter" alt="Drawing of a soldier" >
+            </a>
         </div>
     </div>
 </div>
 
 <!-- Third card -->
 
-<div class="card border-0" style="max-width:100%">
+<div class="card">
     <div class="row ">
         <div class="col-md-7">
-            <img src="../../photos/females.png" class="card-img rounded-0" alt="Painting of two females in town" >
-            <a href="sirHugh.html" class="stretched-link"></a>
+            <a href="sirHugh.html">
+            <img src="../../photos/females.png" class="card-img rounded-0 filter" alt="Painting of two females in town" >
+            </a>
         </div>
         <div class="col-md-5">
             <div class="card-body">
@@ -181,7 +184,7 @@
 
 <!-- Fourth card -->
 
-<div class="card border-0" style="max-width:100%">
+<div class="card">
     <div class="row">
         <div class="col-md-5 ">
             <div class="card-body ">
@@ -194,8 +197,9 @@
             </div>
         </div>
         <div class="col-md-7">
-            <img src="../../photos/dublin.png" class="card-img rounded-0" alt="Painting of children on the street">
-            <a href="september1913.html" class="stretched-link"></a>
+            <a href="september1913.html">
+            <img src="../../photos/dublin.png" class="card-img rounded-0 filter" alt="Painting of children on the street">
+            </a>
         </div>
     </div>
 </div>
@@ -230,7 +234,7 @@
                         <a class="nav-link text-white" href="#">Support</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white" href="../contact.html">Contact</a>
                     </li>
                     <li class="nav-item px-4">
                         <a class="nav-link text-white" href="#">Career</a>
@@ -250,20 +254,17 @@
                         <button type="button" class="btn btn-primary ml-2">Join</button>
                     </div>
                     <div>
-                        <br>  <br>
-                        <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;
-                        <a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;
-                        <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
-                        <a href="#" class="fa fa-youtube"></a>&nbsp;&nbsp;
-                        <a href="#" class="fa fa-linkedin"></a>&nbsp;&nbsp;
+                        <br> <br>
+                        <a href="https://www.facebook.com/thehughlane/" class="fa fa-facebook"></a>&nbsp;&nbsp;
+                        <a href="https://twitter.com/TheHughLane" class="fa fa-twitter"></a>&nbsp;&nbsp;
+                        <a href="https://www.instagram.com/thehughlane/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/channel/UC-ul2v2RVcfveDkIAcvwWtQ" class="fa fa-youtube"></a>&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/in/victoria-evans-4239ba87/" class="fa fa-linkedin"></a>&nbsp;&nbsp;
                     </div>
-
                 </div>
-                <div class="float-right">
-                    <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9
-                        <br> <small>Closed today </small>
-                    </h2>
-                    <h2 class= "mt-4"><br>High Contrast Mode</h2>
+                <div class="float-right mt-4">
+                    <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9</h2>
+                    <br><br><small>Closed today </small>
                 </div>
             </div>
 

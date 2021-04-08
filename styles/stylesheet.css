@@ -12,14 +12,14 @@ a {
     color: #2896EC !important;
 }
 
-
-
-
-
-img:hover {
+/*hover */
+img.filter:hover {
     filter: sepia(80%);
     -webkit-filter: sepia(80%);
 }
+
+
+
 
 .card-body {
     display: flex;
