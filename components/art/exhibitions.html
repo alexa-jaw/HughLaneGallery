@@ -36,20 +36,24 @@
 <body>
 
 
-<div class="page-header">
-    <h1 class="titleHeader float-left ml-4 mt-2 text-info"><a href = "../../index.html">HUGH LANE GALLERY</a></h1>
-    <h1 class="titleHeader float-right mr-4 mt-2 text-info"><a href = "../../index.html">DÁNLANN AN HUGH LANE</a></h1>
-
-    <h2 class="fee"><a>Admission free </a></h2>
-
+<div class="page-header container-fluid">
+    <div id="hugh-lane-headings" class="clearfix">
+        <h1 class="titleHeader float-left ml-4 mr-4 mt-2"><a href="../../index.html">HUGH LANE GALLERY</a></h1>
+        <h1 id="gaelic-heading" class="titleHeader float-right ml-4 mr-4 mt-2"><a href="../../index.html">DÁNLANN AN HUGH LANE</a></h1>
+    </div>
+    <div id="ad-free-heading" class="clearfix">
+        <h2 class="float-right mr-4 ml-4">Admission free</h2>
+    </div>
     <!-- Navigation menu -->
-    <nav class="navbar navbar-expand-sm navbar-fixed-top">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav id="nav-top" class="navbar navbar-expand-lg bg-white navbar-light">
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Links -->
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown px-4">
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
@@ -57,23 +61,24 @@
                         Art
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../components/art/collections.html">Collections</a>
-                        <a class="dropdown-item" href="../components/art/exhibitions.html">Exhibitions</a>
-                        <a class="dropdown-item" href="../components/art/artists.html">Artists A-Z </a>
-                        <a class="dropdown-item" href="../components/art/publications.html">Publications A-Z</a>
+                        <a class="dropdown-item" href="../../components/art/collections.html">Collections</a>
+                        <a class="dropdown-item" href="../../components/art/exhibitions.html">Exhibitions</a>
+                        <a class="dropdown-item" href="../../components/art/artists.html">Artists A-Z </a>
+                        <a class="dropdown-item" href="../../components/art/publications.html">Publications A-Z</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown  px-4">
-                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-dark" href="../components/visit.html"
+                       id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false">
                         Visit
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="visit.html#opening">Opening Hours</a>
-                        <a class="dropdown-item" href="visit.html#access">Access & Facilities</a>
-                        <a class="dropdown-item" href="visit.html#family">Family Tours</a>
-                        <a class="dropdown-item" href="visit.html#guided">Guided Tours</a>
-                        <a class="dropdown-item" href="visit.html#cafe">Café and Bookshop</a>
+                        <a class="dropdown-item" href="../../components/visit.html#opening">Opening Hours</a>
+                        <a class="dropdown-item" href="../../components/visit.html#access">Access & Facilities</a>
+                        <a class="dropdown-item" href="../../components/visit.html#family">Family Tours</a>
+                        <a class="dropdown-item" href="../../components/visit.html#guided">Guided Tours</a>
+                        <a class="dropdown-item" href="../../components/visit.html#cafe">Café and Bookshop</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown  px-4">
@@ -84,8 +89,8 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Collections </a>
                         <a class="dropdown-item" href="#">Exhibitions</a>
-                        <a class="dropdown-item" href="#">Artists A-Z </a>
-                        <a class="dropdown-item" href="#">Publications A-Z</a>
+                        <a class="dropdown-item" href="#">Concerts </a>
+                        <a class="dropdown-item" href="#">Public Events</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown  px-4">
@@ -94,14 +99,15 @@
                         Learn & Engage
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Collections </a>
-                        <a class="dropdown-item" href="#">Exhibitions</a>
-                        <a class="dropdown-item" href="#">Artists A-Z </a>
-                        <a class="dropdown-item" href="#">Publications A-Z</a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/overview.html">Overview </a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/courses.html">Courses </a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/programmes.html">Programmes</a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/talks.html">Talks </a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/kids_club.html">Kids Club</a>
                     </div>
                 </li>
                 <li class="nav-item  px-4">
-                    <a class="nav-link  text-dark" href="#">Shop</a>
+                    <a class="nav-link  text-dark" href="../../components/bookshop.html">Shop</a>
                 </li>
             </ul>
             <form class="form-inline">
@@ -110,10 +116,6 @@
             </form>
         </div>
     </nav>
-
-</div>
-        </div>
-    </div>
 </div>
 
 <!-- Main content -->
@@ -124,6 +126,7 @@
     <div class="row ">
         <div class="col-md-7">
             <img src="../../photos/order.png" class="card-img rounded-0" alt="Black shades" >
+            <a href="kennedy.html" class="stretched-link"></a>
         </div>
         <div class="col-md-5">
             <div class="card-body">
@@ -134,6 +137,7 @@
                     Kennedy Browne (Gareth Kennedy and Sarah Browne).</p>
                 <p class="card-text"><small class="text-muted">General Enquiries<br>
                     info.hughlane@dublincity.ie</small></p>
+                <a href="kennedy.html" class="stretched-link"></a>
             </div>
         </div>
     </div>
@@ -152,10 +156,12 @@
                 <p class="card-text"><small class="text-muted">Logan Sisley<br>
                     logan.sisley@dublincity.ie</small></p>
                 <p class="card-text"><small class="text-muted"></small></p>
+                <a href="withoutEnd.html" class="stretched-link"></a>
             </div>
         </div>
         <div class="col-md-7">
             <img src="../../photos/lines.png" class="card-img rounded-0" alt="Blue lights of light illuminating the room">
+            <a href="withoutEnd.html" class="stretched-link"></a>
         </div>
     </div>
 </div>
@@ -166,6 +172,7 @@
     <div class="row ">
         <div class="col-md-7">
             <img src="../../photos/grey.png" class="card-img rounded-0" alt="A photo of old black and white images" >
+            <a href="amanda.html" class="stretched-link"></a>
         </div>
         <div class="col-md-5">
             <div class="card-body">
@@ -176,6 +183,7 @@
                 <p class="card-text"><small class="text-muted">Michael Dempsey<br>
                     mdempsey.hughlane@dublincity.ie
                 </small></p>
+                <a href="amanda.html" class="stretched-link"></a>
             </div>
         </div>
     </div>
@@ -194,10 +202,12 @@
                 <p class="card-text"><small class="text-muted">Michael Dempsey<br>
                     mdempsey.hughlane@dublincity.ie</small></p>
                 <p class="card-text"><small class="text-muted"></small></p>
+                <a href="rachel.html" class="stretched-link"></a>
             </div>
         </div>
         <div class="col-md-7">
             <img src="../../photos/truth.png" class="card-img rounded-0" alt="Written text: truth">
+            <a href="rachel.html" class="stretched-link"></a>
         </div>
     </div>
 </div>
@@ -209,6 +219,7 @@
     <div class="row ">
         <div class="col-md-7">
             <img src="../../photos/carpet.png" class="card-img rounded-0" alt="Paintings on the blue wall" >
+            <a href="niamh.html" class="stretched-link"></a>
         </div>
         <div class="col-md-5">
             <div class="card-body">
@@ -218,6 +229,7 @@
                 </p>
                 <p class="card-text"><small class="text-muted">Michael Dempsey<br>
                     mdempsey.hughlane@dublincity.ie</small></p>
+                <a href="niamh.html" class="stretched-link"></a>
             </div>
         </div>
     </div>
@@ -237,10 +249,12 @@
                 <p class="card-text"><small class="text-muted">Jessica O'Donnell<br>
                     jodonnell.hughlane@dublincity.ie</small></p>
                 <p class="card-text"><small class="text-muted"></small></p>
+                <a href="niamh.html" class="stretched-link"></a>
             </div>
         </div>
         <div class="col-md-7">
             <img src="../../photos/face.png" class="card-img rounded-0" alt="Woman's face, painting">
+            <a href="niamh.html" class="stretched-link"></a>
         </div>
     </div>
 </div>
@@ -251,6 +265,7 @@
     <div class="row ">
         <div class="col-md-7">
             <img src="../../photos/gold.png" class="card-img rounded-0" alt="gold" >
+            <a href="mark.html" class="stretched-link"></a>
         </div>
         <div class="col-md-5">
             <div class="card-body">
@@ -259,6 +274,7 @@
                     'Our Plundered Planet' by American artist Mark Dion.</p>
                 <p class="card-text"><small class="text-muted">General Enquiries<br>
                     info.hughlane@dublincity.ie</small></p>
+                <a href="mark.html" class="stretched-link"></a>
             </div>
         </div>
     </div>
@@ -285,9 +301,9 @@
                             About
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Hugh Lane</a>
-                            <a class="dropdown-item" href="#">Charlemont House</a>
-                            <a class="dropdown-item" href="#">The Gallery</a>
+                            <a class="dropdown-item" href="../about/hugh-lane.html">Hugh Lane</a>
+                            <a class="dropdown-item" href="../about/charlemont-house.html">Charlemont House</a>
+                            <a class="dropdown-item" href="../about/the-gallery.html">The Gallery</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Related Documents</a>
                         </div>

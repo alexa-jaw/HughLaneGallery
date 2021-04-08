@@ -38,20 +38,24 @@
 <body>
 
 
-<div class="page-header bg-light">
-    <h1 class="titleHeader float-left ml-4 mt-2 "><a href="../../index.html">HUGH LANE GALLERY</a></h1>
-    <h1 class="titleHeader float-right mr-4 mt-2 "><a href="../../index.html">DÁNLANN AN HUGH LANE</a></h1>
-
-    <h2 class="fee"><a>Admission free </a></h2>
-
+<div class="page-header container-fluid">
+    <div id="hugh-lane-headings" class="clearfix">
+        <h1 class="titleHeader float-left ml-4 mr-4 mt-2"><a href="../../index.html">HUGH LANE GALLERY</a></h1>
+        <h1 id="gaelic-heading" class="titleHeader float-right ml-4 mr-4 mt-2"><a href="../../index.html">DÁNLANN AN HUGH LANE</a></h1>
+    </div>
+    <div id="ad-free-heading" class="clearfix">
+        <h2 class="float-right mr-4 ml-4">Admission free</h2>
+    </div>
     <!-- Navigation menu -->
-    <nav id="navbar_top" class="navbar navbar-expand-sm bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav id="nav-top" class="navbar navbar-expand-lg bg-white navbar-light">
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <!-- Links -->
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown px-4">
                     <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
@@ -59,23 +63,24 @@
                         Art
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="../components/art/collections.html">Collections</a>
-                        <a class="dropdown-item" href="../components/art/exhibitions.html">Exhibitions</a>
-                        <a class="dropdown-item" href="../components/art/artists.html">Artists A-Z </a>
-                        <a class="dropdown-item" href="../components/art/publications.html">Publications A-Z</a>
+                        <a class="dropdown-item" href="../../components/art/collections.html">Collections</a>
+                        <a class="dropdown-item" href="../../components/art/exhibitions.html">Exhibitions</a>
+                        <a class="dropdown-item" href="../../components/art/artists.html">Artists A-Z </a>
+                        <a class="dropdown-item" href="../../components/art/publications.html">Publications A-Z</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown  px-4">
-                    <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-dark" href="../components/visit.html"
+                       id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false">
                         Visit
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="visit.html#opening">Opening Hours</a>
-                        <a class="dropdown-item" href="visit.html#access">Access & Facilities</a>
-                        <a class="dropdown-item" href="visit.html#family">Family Tours</a>
-                        <a class="dropdown-item" href="visit.html#guided">Guided Tours</a>
-                        <a class="dropdown-item" href="visit.html#cafe">Café and Bookshop</a>
+                        <a class="dropdown-item" href="../../components/visit.html#opening">Opening Hours</a>
+                        <a class="dropdown-item" href="../../components/visit.html#access">Access & Facilities</a>
+                        <a class="dropdown-item" href="../../components/visit.html#family">Family Tours</a>
+                        <a class="dropdown-item" href="../../components/visit.html#guided">Guided Tours</a>
+                        <a class="dropdown-item" href="../../components/visit.html#cafe">Café and Bookshop</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown  px-4">
@@ -86,8 +91,8 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Collections </a>
                         <a class="dropdown-item" href="#">Exhibitions</a>
-                        <a class="dropdown-item" href="#">Artists A-Z </a>
-                        <a class="dropdown-item" href="#">Publications A-Z</a>
+                        <a class="dropdown-item" href="#">Concerts </a>
+                        <a class="dropdown-item" href="#">Public Events</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown  px-4">
@@ -96,14 +101,15 @@
                         Learn & Engage
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Collections </a>
-                        <a class="dropdown-item" href="#">Exhibitions</a>
-                        <a class="dropdown-item" href="#">Artists A-Z </a>
-                        <a class="dropdown-item" href="#">Publications A-Z</a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/overview.html">Overview </a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/courses.html">Courses </a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/programmes.html">Programmes</a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/talks.html">Talks </a>
+                        <a class="dropdown-item" href="../../components/learn_and_engage/kids_club.html">Kids Club</a>
                     </div>
                 </li>
                 <li class="nav-item  px-4">
-                    <a class="nav-link  text-dark" href="#">Shop</a>
+                    <a class="nav-link  text-dark" href="../../components/bookshop.html">Shop</a>
                 </li>
             </ul>
             <form class="form-inline">
@@ -112,22 +118,17 @@
             </form>
         </div>
     </nav>
-
 </div>
-        </div>
-    </div>
-</div>
-
 <!-- Main content -->
 
 
 <!-- First card -->
 
-<a href="cecil.html">
 <div class="card border-0" style="max-width:100%">
     <div class="row ">
         <div class="col-md-7">
             <img src="../../photos/red.png" class="card-img rounded-0" alt="Red background with golden-brown rectangles that is an image of King Cecil's paintings" >
+            <a href="cecil.html" class="stretched-link"></a>
         </div>
         <div class="col-md-5">
             <div class="card-body">
@@ -137,13 +138,13 @@
                     It is therefore with great pleasure that we present King’s work from the collection to mark the 100th anniversary of his birth.</p>
                 <p class="card-text"><small class="text-muted">Logan Sisley<br>
                     logan.sisley@dublincity.ie</small></p>
+                <a href="cecil.html" class="stretched-link"></a>
             </div>
         </div>
     </div>
 </div>
-</a>
+
 <!-- Second card -->
-<a href="doherty.html">
 <div class="card border-0" style="max-width:100%">
     <div class="row">
         <div class="col-md-5 ">
@@ -156,20 +157,22 @@
                 <p class="card-text"><small class="text-muted">Logan Sisley<br>
                     logan.sisley@dublincity.ie</small></p>
                 <p class="card-text"><small class="text-muted"></small></p>
+                <a href="doherty.html" class="stretched-link"></a>
             </div>
         </div>
         <div class="col-md-7">
             <img src="../../photos/grass.png" class="card-img rounded-0" alt="Grass white flowers and fragment of black rock.">
+            <a href="doherty.html" class="stretched-link"></a>
         </div>
     </div>
 </div>
-</a>
+
 <!-- Third card -->
-<a href="glass room.html">
 <div class="card border-0" style="max-width:100%">
     <div class="row ">
         <div class="col-md-7">
             <img src="../../photos/pinkman.png" class="card-img rounded-0" alt="Stained glass" >
+            <a href="glassroom.html" class="stretched-link"></a>
         </div>
         <div class="col-md-5">
             <div class="card-body">
@@ -179,13 +182,13 @@
                     The room also features work by Wilhelmina Geddes, Evie Hone, Paul Bony and James Scanlon.</p>
                 <p class="card-text"><small class="text-muted">Logan Sisley<br>
                     logan.sisley@dublincity.ie</small></p>
+                <a href="glassroom.html" class="stretched-link"></a>
             </div>
         </div>
     </div>
 </div>
-</a>
+
 <!-- Fourth card -->
-<a href="sean.html">
 <div class="card border-0" style="max-width:100%">
     <div class="row">
         <div class="col-md-5 ">
@@ -199,20 +202,22 @@
                     logan.sisley@dublincity.ie</small></p>
                 <p class="card-text"><small class="text-muted"></small></p>
             </div>
+            <a href="sean.html" class="stretched-link"></a>
         </div>
         <div class="col-md-7">
             <img src="../../photos/sean.png" class="card-img rounded-0" alt="Colourful rectangles">
+            <a href="sean.html" class="stretched-link"></a>
         </div>
     </div>
 </div>
-</a>
+
 
 <!-- Fifth card -->
-<a href="lane.html">
 <div class="card border-0" style="max-width:100%">
     <div class="row ">
         <div class="col-md-7">
             <img src="../../photos/lane.png" class="card-img rounded-0" alt="Two people on the drawing" >
+            <a href="lane.html" class="stretched-link"></a>
         </div>
         <div class="col-md-5">
             <div class="card-body">
@@ -221,13 +226,13 @@
                     celebrates the gallery’s founder, the philanthropist Sir Hugh Lane.</p>
                 <p class="card-text"><small class="text-muted">Logan Sisley<br>
                     logan.sisley@dublincity.ie</small></p>
+                <a href="lane.html" class="stretched-link"></a>
             </div>
         </div>
     </div>
 </div>
-</a>
+
 <!-- Sixth card -->
-<a href="bacon.html">
 <div class="card border-0" style="max-width:100%">
     <div class="row">
         <div class="col-md-5 ">
@@ -239,18 +244,15 @@
                 <p class="card-text"><small class="text-muted">Logan Sisley<br>
                     logan.sisley@dublincity.ie</small></p>
                 <p class="card-text"><small class="text-muted"></small></p>
+                <a href="bacon.html" class="stretched-link"></a>
             </div>
         </div>
         <div class="col-md-7">
-            <img src="../../photos/egyptianFace.png" class="card-img rounded-0" alt="Egyptian face">
+            <img src="../../photos/egyptianFace.png" class="card-img rounded-0" alt="Profile image of an egyptian face.">
+            <a href="bacon.html" class="stretched-link"></a>
         </div>
     </div>
 </div>
-</a>
-
-
-
-
         <!-- Footer -->
 
     <div id="footer" class="bg-info">
@@ -270,9 +272,9 @@
                             About
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Hugh Lane</a>
-                            <a class="dropdown-item" href="#">Charlemont House</a>
-                            <a class="dropdown-item" href="#">The Gallery</a>
+                            <a class="dropdown-item" href="../about/hugh-lane.html">Hugh Lane</a>
+                            <a class="dropdown-item" href="../about/charlemont-house.html">Charlemont House</a>
+                            <a class="dropdown-item" href="../about/the-gallery.html">The Gallery</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Related Documents</a>
                         </div>
