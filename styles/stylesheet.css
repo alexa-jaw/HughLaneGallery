@@ -5,30 +5,20 @@
 .footer-text{
 font-size: 1.5em;
 font-weight: lighter;
-
 }
+
 
 a {
     color: #2896EC !important;
 }
 
-a[href$="https://www.hughlane.ie/phocadownload/pdf/gallery_map_large_v4.pdf"]:after {
-    content: " (PDF)";
-}
 
 
-/*img {*/
-/*    opacity: 1;*/
-/*}*/
+
 
 img:hover {
-    /*filter: hue-rotate(180deg);*/
-    /*-webkit-filter: hue-rotate(180deg);*/
-    /*filter: saturate(170%);*/
-    /*-webkit-filter: saturate(170%);*/
     filter: sepia(80%);
     -webkit-filter: sepia(80%);
-
 }
 
 .card-body {
@@ -41,100 +31,8 @@ img:hover {
 
 .titleHeader {
     color: #2896EC;
-    /* margin-top: 10px;
-    margin-left: 20px;
-    font-size: 30px;
-    font-family: Osaka, Helvetica, sans-serif; */
 }
 
-.secondHeader {
-    color: #2896EC;
-    margin-top: -60px;
-    margin-left: 900px;
-    font-size: 30px;
-    position: initial;
-    font-family: Osaka, Helvetica,sans-serif;
-}
-
-.fee {
-    color: dimgrey;
-    margin-top: 5px;
-    margin-left: 1100px;
-    font-size: 20px;
-    position: initial;
-    font-family: Osaka, Helvetica,sans-serif;
-}
-
-/* The navigation menu
-.navbar {
-    overflow: visible;
-    background-color: #F8F8FF;
-}
-
-/* Navigation links */
-/* .navbar a {
-    float: left;
-    font-size: 18px;
-    font-family: Osaka, sans-serif;
-    color: dimgrey;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none; */
-/* } */
-
-/* The subnavigation menu */
-/* .subnav {
-    float: left;
-    overflow: hidden;
-} */
-
-/* Subnav button Art Visit What's on Learn & Engage Shop */
-/* .subnav .subnavbtn {
-    font-size: 22px;
-    border: none;
-    outline: none;
-    color: dimgrey;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-} */
-
-/* Add a pink background color to navigation links on hover */
-/* .navbar a:hover, .subnav:hover .subnavbtn {
-    background-color: #FEC5E5;
-} */
-
-/* Style the subnav content - positioned absolute */
-/* .subnav-content {
-    display: none;
-    position: absolute;
-    left: 0;
-    background-color: #FEC5E5;
-    width: 100%;
-
-} */
-
-/* Style the subnav links */
-/* .subnav-content a {
-    float: left;
-    color: dimgrey;
-    text-decoration: none;
-} */
-
-/* Add a grey background color on hover */
-/* .subnav-content a:hover {
-    background-color: #eee;
-    color: black;
-} */
-
-/* When you move the mouse over the subnav container, open the subnav content */
-/* .subnav:hover .subnav-content {
-    display: block;
-    background-color: #FEC5E5;
-} */
-
-/* Selects any <a> element when "hovered" */
 
 
 .form-control{
@@ -144,29 +42,6 @@ img:hover {
 h2{
     font-size: 1.5em;
 }
-.c {
-    float: left;
-    display: block;
-    width: 35%;
-    height: 200px;
-    padding: 20px;
-    background-color: #2896EC;
-    text-align: left;
-}
-.c2 {
-    float: right;
-    display: block;
-    width: 35%;
-    height: 200px;
-    padding: 20px;
-    background-color: #2896EC;
-    text-align: right;
-}
-
-#glass {
-    float: left;
-    object-fit: cover;
-}
 h3{
     font-size: 2em;
 }
@@ -175,50 +50,30 @@ p{
 }
 
 
+
+#glass {
+    float: left;
+    object-fit: cover;
+}
+
+
 .fit-image{
     object-fit: cover;
     }
 
-/* .carousel {
-        width: 640px;  
-        height:360px;
-      } */
 
-      /* .carousel-item,
-.carousel-inner,
-.carousel-inner img {
-  height: 100%;
-  width: auto;
+.img-right{
+    width: 65%;
+    height: 200px;
 }
 
-.carousel-item {
-  text-align: center;
+#img{
+    opacity: 0.4;
 }
-/* .carousel {
-    height: 400px;
-  } */ 
-/* 
-  .nav.navbar-nav li a {
-    color: white;
-  }
- 
- .nav.navbar-nav a:hover {
-  color: white;
- } */
-    .img-right{
-        width: 65%;
-        height: 200px;
-    }
 
-    #img{
-        opacity: 0.4;
-    }
 
-    /* .bg-black{
-        background-color: black;
-    } */
 
-    
+/*visit page css*/
 .visit {
     font-size: 1.2em !important;
 }
@@ -227,13 +82,9 @@ p{
     text-align: center;
     color:black !important;
 }
+/*visit page css ends*/
 
-/*.card-text{*/
-/*    text-overflow: ellipsis;*/
-/*    white-space: nowrap;*/
-/*    overflow: hidden;*/
-/*}*/
-
+/*social media integration here starts*/
 .fa {
     padding: 10px;
     font-size: 20px;
@@ -242,20 +93,15 @@ p{
     text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.4;
 }
 
-/* Set a specific color for each brand */
-
-/* Facebook */
 .fa-facebook {
     background: white;
     color: white;
 }
 
-/* Twitter */
 .fa-twitter {
     background: white;
     color: white;
@@ -293,7 +139,7 @@ p{
   /* Media queries */
 
    /* xs Extra small devices (portrait phones, less than 576px) */
-  @media (max-width: 575.98px) { 
+  @media (max-width: 575.98px) {
     #hugh-lane-headings h1 {
         font-size: 1.8em;
         float:none !important;
@@ -302,7 +148,7 @@ p{
         font-size: 1em !important;
     }
     #ad-free-heading h2{
-        font-size: 1em;  
+        font-size: 1em;
         float: none !important;
     }
    }
@@ -318,17 +164,17 @@ p{
    }
   
    /* sm Small devices (landscape phones, less than 768px) */
-  @media (max-width: 767.98px) { 
-    
+  @media (max-width: 767.98px) {
+
    }
   
    /* md Medium devices (tablets, less than 992px) */
-  @media (max-width: 991.98px) { 
+  @media (max-width: 991.98px) {
     #hugh-lane-headings h1 {
         font-size: 1.7em;
       }
     #ad-free-heading h2{
-        font-size: 1em;  
+        font-size: 1em;
     }
    }
   
