@@ -19,38 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="Aleksa/update/art/sub/subpages">
+    <list default="true" id="1e980af3-b8b7-49a3-9e4b-2537042582d7" name="Default Changelist" comment="EDWARD&#10;header and footer &#10;changed bg, and added links, delete the margin &#10;everyone copy the footer and header">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_04_2021,_13_42_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_01_04_2021__13_42__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/amanda.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/amanda.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/artists.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/artists.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/ashleigh.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/ashleigh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/bacon.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/bacon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/cecil.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/cecil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/collections.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/collections.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/doherty.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/doherty.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/dor.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/dor.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/efforts.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/efforts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/elaine.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/elaine.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/exhibitions.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/exhibitions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/glassroom.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/glassroom.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/harry.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/harry.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/helena.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/helena.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/jessica.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/jessica.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/john.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/john.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/kennedy.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/kennedy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/lane.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/lane.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/mark.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/mark.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/michelle.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/michelle.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/niamh.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/niamh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/publications.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/rachel.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/rachel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/renata.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/renata.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/seamus.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/seamus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/sean.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/sean.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/september1913.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/september1913.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/sirHugh.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/sirHugh.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/unTruth.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/unTruth.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/art/withoutEnd.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/art/withoutEnd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/visit.html" beforeDir="false" afterPath="$PROJECT_DIR$/components/visit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +76,49 @@
       <workItem from="1617192979280" duration="3832000" />
       <workItem from="1617211951408" duration="1136000" />
       <workItem from="1617214357066" duration="10719000" />
+      <workItem from="1617916807677" duration="425000" />
+    </task>
+    <task id="LOCAL-00005" summary="a final change on visit.html">
+      <created>1617121069840</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617121069840</updated>
+    </task>
+    <task id="LOCAL-00006" summary="a final change on visit.html">
+      <created>1617121084203</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1617121084203</updated>
+    </task>
+    <task id="LOCAL-00007" summary="a final change on visit.html">
+      <created>1617121449235</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617121449235</updated>
+    </task>
+    <task id="LOCAL-00008" summary="a final change on visit.html put it inside the components">
+      <created>1617122597141</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617122597142</updated>
+    </task>
+    <task id="LOCAL-00009" summary="a final change on visit.html">
+      <created>1617143738159</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617143738159</updated>
+    </task>
+    <task id="LOCAL-00010" summary="EDWARD a final change on visit.html">
+      <created>1617143747973</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1617143747973</updated>
     </task>
     <task id="LOCAL-00011" summary="Aleksa/update/collections">
       <created>1617198472864</created>
@@ -383,70 +400,28 @@
       <option name="project" value="LOCAL" />
       <updated>1617394209024</updated>
     </task>
-    <task id="LOCAL-00051" summary="Aleksa/update/art/sub/subpages">
-      <created>1617887436676</created>
+    <task id="LOCAL-00051" summary="EDWARD&#10;header and footer &#10;changed bg, and added links, delete the margin">
+      <created>1617891329948</created>
       <option name="number" value="00051" />
       <option name="presentableId" value="LOCAL-00051" />
       <option name="project" value="LOCAL" />
-      <updated>1617887436676</updated>
+      <updated>1617891329949</updated>
     </task>
-    <task id="LOCAL-00052" summary="Aleksa/update/art/sub/subpages">
-      <created>1617887445850</created>
+    <task id="LOCAL-00052" summary="EDWARD&#10;header and footer &#10;changed bg, and added links, delete the margin">
+      <created>1617891711717</created>
       <option name="number" value="00052" />
       <option name="presentableId" value="LOCAL-00052" />
       <option name="project" value="LOCAL" />
-      <updated>1617887445850</updated>
+      <updated>1617891711718</updated>
     </task>
-    <task id="LOCAL-00053" summary="Aleksa/update/art/sub/subpages">
-      <created>1617889058483</created>
+    <task id="LOCAL-00053" summary="EDWARD&#10;header and footer &#10;changed bg, and added links, delete the margin &#10;everyone copy the footer and header">
+      <created>1617897448045</created>
       <option name="number" value="00053" />
       <option name="presentableId" value="LOCAL-00053" />
       <option name="project" value="LOCAL" />
-      <updated>1617889058483</updated>
+      <updated>1617897448046</updated>
     </task>
-    <task id="LOCAL-00054" summary="Aleksa/update/art/sub/subpages">
-      <created>1617891838273</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1617891838273</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Aleksa/update/art/sub/subpages">
-      <created>1617892523533</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1617892523533</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Aleksa/update/art/sub/subpages">
-      <created>1617894233418</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1617894233418</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Aleksa/update/art/sub/subpages">
-      <created>1617902417193</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1617902417193</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Aleksa/update/art/sub/subpages">
-      <created>1617902422697</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1617902422697</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Aleksa/update/art/sub/subpages">
-      <created>1617903330406</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1617903330406</updated>
-    </task>
-    <option name="localTasksCounter" value="60" />
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,30 +449,8 @@
     <MESSAGE value="Aleksa/update/collections" />
     <MESSAGE value="Aleksa/update/art" />
     <MESSAGE value="Aleksa/update/art/sub/subpages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aleksa/update/art/sub/subpages" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="374" y="72" key="SettingsEditor" timestamp="1617198900671">
-      <screen x="0" y="25" width="1440" height="824" />
-    </state>
-    <state x="374" y="72" key="SettingsEditor/0.25.1440.824@0.25.1440.824" timestamp="1617198900671" />
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2" timestamp="1617903336694">
-      <screen x="0" y="25" width="1440" height="823" />
-    </state>
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.823@0.25.1440.823" timestamp="1617903336694" />
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.824@0.25.1440.824" timestamp="1617316118413" />
-    <state x="602" y="173" key="Vcs.Push.Dialog.v2/0.25.1440.825@0.25.1440.825" timestamp="1617281356367" />
-    <state x="602" y="174" key="Vcs.Push.Dialog.v2/0.25.1440.826@0.25.1440.826" timestamp="1617225696989" />
-    <state x="256" y="52" width="772" height="623" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1617889002990">
-      <screen x="0" y="25" width="1440" height="823" />
-    </state>
-    <state x="256" y="52" width="772" height="623" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.25.1440.823@0.25.1440.823" timestamp="1617889002990" />
-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617906669054">
-      <screen x="0" y="25" width="1440" height="823" />
-    </state>
-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.823@0.25.1440.823" timestamp="1617906669054" />
-    <state x="625" y="387" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.824@0.25.1440.824" timestamp="1617316086527" />
-    <state x="625" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.825@0.25.1440.825" timestamp="1617281344909" />
-    <state x="625" y="388" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.826@0.25.1440.826" timestamp="1617225652786" />
+    <MESSAGE value="EDWARD&#10;header and footer &#10;changed bg, and added links, delete the margin" />
+    <MESSAGE value="EDWARD&#10;header and footer &#10;changed bg, and added links, delete the margin &#10;everyone copy the footer and header" />
+    <option name="LAST_COMMIT_MESSAGE" value="EDWARD&#10;header and footer &#10;changed bg, and added links, delete the margin &#10;everyone copy the footer and header" />
   </component>
 </project>
