@@ -34,20 +34,27 @@
 </head>
 
 <body>
-    <div class="page-header bg-light">
-        <h1 class="titleHeader float-left ml-4 mt-2 "><a href="../index.html">HUGH LANE GALLERY</a></h1>
-        <h1 class="titleHeader float-right mr-4 mt-2 "><a href="../index.html">DÁNLANN AN HUGH LANE</a></h1>
+    <div class="page-header container-fluid bg-light" >
+        <div id="hugh-lane-headings" class="clearfix">
+            <h1 class="titleHeader float-left ml-4 mr-4 mt-2"><a href="../index.html">HUGH LANE GALLERY</a></h1>
+            <h1 id="gaelic-heading" class="titleHeader float-right ml-4 mr-4 mt-2"><a href="../index.html">DÁNLANN AN HUGH
+                    LANE</a></h1>
+        </div>
 
-        <h2 class="fee"><a>Admission free </a></h2>
+        <div id="ad-free-heading" class="clearfix">
+            <h2 class="float-right mr-4 ml-4">Admission free</h2>
+        </div>
 
         <!-- Navigation menu -->
-        <nav id="navbar_top" class="navbar navbar-expand-sm bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav id="nav-top" class="navbar navbar-expand-lg bg-light navbar-light">
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <!-- Links -->
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item dropdown px-4">
                         <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button"
@@ -55,24 +62,24 @@
                             Art
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Collections </a>
-                            <a class="dropdown-item" href="#">Exhibitions</a>
-                            <a class="dropdown-item" href="#">Artists A-Z </a>
-                            <a class="dropdown-item" href="#">Publications A-Z</a>
+                            <a class="dropdown-item" href="art/collections.html">Collections</a>
+                            <a class="dropdown-item" href="art/exhibitions.html">Exhibitions</a>
+                            <a class="dropdown-item" href="art/artists.html">Artists A-Z </a>
+                            <a class="dropdown-item" href="art/publications.html">Publications A-Z</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown  px-4">
-                        <a class="nav-link dropdown-toggle text-dark" href="../components/visit.html"
+                        <a class="nav-link dropdown-toggle text-dark" href="visit.html"
                             id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false">
                             Visit
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../components/visit.html#opening">Opening Hours</a>
-                            <a class="dropdown-item" href="../components/visit.html#access">Access & Facilities</a>
-                            <a class="dropdown-item" href="../components/visit.html#family">Family Tours</a>
-                            <a class="dropdown-item" href="../components/visit.html#guided">Guided Tours</a>
-                            <a class="dropdown-item" href="../components/visit.html#cafe">Café and Bookshop</a>
+                            <a class="dropdown-item" href="visit.html#opening">Opening Hours</a>
+                            <a class="dropdown-item" href="visit.html#access">Access & Facilities</a>
+                            <a class="dropdown-item" href="visit.html#family">Family Tours</a>
+                            <a class="dropdown-item" href="visit.html#guided">Guided Tours</a>
+                            <a class="dropdown-item" href="visit.html#cafe">Café and Bookshop</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown  px-4">
@@ -93,14 +100,15 @@
                             Learn & Engage
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../components/learn-engage.html">Courses </a>
-                            <a class="dropdown-item" href="../components/learn-engage.html">Programmes</a>
-                            <a class="dropdown-item" href="../components/learn-engage.html">Talks </a>
-                            <a class="dropdown-item" href="../components/learn-engage.html">Kids Club</a>
+                            <a class="dropdown-item" href="learn_and_engage/overview.html">Overview </a>
+                            <a class="dropdown-item" href="learn_and_engage/courses.html">Courses </a>
+                            <a class="dropdown-item" href="learn_and_engage/programmes.html">Programmes</a>
+                            <a class="dropdown-item" href="learn_and_engage/talks.html">Talks </a>
+                            <a class="dropdown-item" href="learn_and_engage/kids_club.html">Kids Club</a>
                         </div>
                     </li>
                     <li class="nav-item  px-4">
-                        <a class="nav-link  text-dark" href="../components/bookshop.html">Shop</a>
+                        <a class="nav-link  text-dark" href="bookshop.html">Shop</a>
                     </li>
                 </ul>
                 <form class="form-inline">
@@ -109,7 +117,6 @@
                 </form>
             </div>
         </nav>
-
     </div>
 
     <!-- Main Content -->
@@ -193,7 +200,8 @@
     <div id="footer" class="bg-info">
 
         <!-- Navigation menu -->
-        <nav class="navbar navbar-expand-sm ml-4 mr-5 bg-info">
+        <nav class="navbar navbar-expand-sm ml-4 mr-5 bg-info navbar-light">
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -207,20 +215,20 @@
                             About
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Hugh Lane</a>
-                            <a class="dropdown-item" href="#">Charlemont House</a>
-                            <a class="dropdown-item" href="#">The Gallery</a>
+                            <a class="dropdown-item" href="about/hugh-lane.html">Hugh Lane</a>
+                            <a class="dropdown-item" href="about/charlemont-house.html">Charlemont House</a>
+                            <a class="dropdown-item" href="about/the-gallery.html">The Gallery</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Related Documents</a>
                         </div>
                     </li>
-                    <li class="nav-item px-4">
+                    <li class="nav-item ">
                         <a class="nav-link text-white" href="#">Support</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link text-white" href="#">Contact</a>
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
                     </li>
-                    <li class="nav-item px-4">
+                    <li class="nav-item ">
                         <a class="nav-link text-white" href="#">Career</a>
                     </li>
                 </ul>
@@ -239,19 +247,17 @@
                     </div>
                     <div>
                         <br> <br>
-                        <a href="#" class="fa fa-facebook"></a>&nbsp;&nbsp;
-                        <a href="#" class="fa fa-twitter"></a>&nbsp;&nbsp;
-                        <a href="#" class="fa fa-instagram"></a>&nbsp;&nbsp;
-                        <a href="#" class="fa fa-youtube"></a>&nbsp;&nbsp;
-                        <a href="#" class="fa fa-linkedin"></a>&nbsp;&nbsp;
+                        <a href="https://www.facebook.com/thehughlane/" class="fa fa-facebook"></a>&nbsp;&nbsp;
+                        <a href="https://twitter.com/TheHughLane" class="fa fa-twitter"></a>&nbsp;&nbsp;
+                        <a href="https://www.instagram.com/thehughlane/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                        <a href="https://www.youtube.com/channel/UC-ul2v2RVcfveDkIAcvwWtQ" class="fa fa-youtube"></a>&nbsp;&nbsp;
+                        <a href="https://www.linkedin.com/in/victoria-evans-4239ba87/" class="fa fa-linkedin"></a>&nbsp;&nbsp;
                     </div>
 
                 </div>
-                <div class="float-right">
+                <div class="float-right mt-4">
                     <h2><br>Charlemont House, Parnell Square N, <br>Rotunda Dublin, D01 F2X9
-                        <br> <small>Closed today </small>
-                    </h2>
-                    <h2 class="mt-4"><br>High Contrast Mode</h2>
+                        <br><br><small>Closed today </small></h2>
                 </div>
             </div>
 
@@ -260,7 +266,6 @@
                 <a class="p-4 text-dark" href="#">Terms of use</a>
             </div>
         </div>
-    </div>
     </div>
 
 </body>
